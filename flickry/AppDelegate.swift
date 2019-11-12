@@ -4,7 +4,7 @@
  - Author:    Roderic Linguri <rlinguri@mac.com>
  - Copyright: 2019 Roderic Linguri
  - Requires:  iOS >11
- - Version:   0.1.0
+ - Version:   0.1.1
  - Since:     0.1.0
  */
 
@@ -14,6 +14,7 @@ class AppDelegate: UIResponder {
   // MARK: - Properties
   
   var window: UIWindow?
+  
   
 } // ./AppDelegate
 
@@ -30,6 +31,12 @@ extension AppDelegate: UIApplicationDelegate {
     didFinishLaunchingWithOptions launchOptions:
     [UIApplication.LaunchOptionsKey: Any]?
   ) -> Bool {
+    Console.log(
+      filePath: #file,
+      function: #function,
+      params: ["didFinishLaunchingWithOptions": launchOptions ?? "nil"],
+      message: nil
+    )
     return true
   } // ./applicationDidFinishLaunchingWithOptions
   
@@ -38,6 +45,7 @@ extension AppDelegate: UIApplicationDelegate {
    - Parameter application: UIApplication
    */
   func applicationWillResignActive(_ application: UIApplication) {
+    Console.log(filePath: #file, function: #function, params: nil, message: nil)
     // Pause ongoing tasks, disable timers, and invalidate graphics rendering callbacks.
   } // ./applicationWillResignActive
   
@@ -46,6 +54,7 @@ extension AppDelegate: UIApplicationDelegate {
    - Parameter application: UIApplication
    */
   func applicationDidEnterBackground(_ application: UIApplication) {
+    Console.log(filePath: #file, function: #function, params: nil, message: nil)
     // Release shared resources, save user data, invalidate timers.
   } // ./applicationDidEnterBackground
   
@@ -54,6 +63,7 @@ extension AppDelegate: UIApplicationDelegate {
    - Parameter application: UIApplication
    */
   func applicationWillEnterForeground(_ application: UIApplication) {
+    Console.log(filePath: #file, function: #function, params: nil, message: nil)
     // Undo the changes made in applicationDidEnterBackground
   } // ./applicationWillEnterForeground
   
@@ -62,6 +72,7 @@ extension AppDelegate: UIApplicationDelegate {
    - Parameter application: UIApplication
    */
   func applicationDidBecomeActive(_ application: UIApplication) {
+    Console.log(filePath: #file, function: #function, params: nil, message: nil)
     // Restart any tasks that were paused (or not yet started) while the application was inactive.
   } // ./applicationDidBecomeActive
   
@@ -70,6 +81,7 @@ extension AppDelegate: UIApplicationDelegate {
    - Parameter application: UIApplication
    */
   func applicationWillTerminate(_ application: UIApplication) {
+    Console.log(filePath: #file, function: #function, params: nil, message: nil)
     // Save data
   } // ./applicationWillTerminate
   
