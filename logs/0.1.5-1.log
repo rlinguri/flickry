@@ -1,0 +1,1988 @@
+// Startup
+
+2019-05-24 15:46:44.710: MainView.awakeFromNib()
+2019-05-24 15:46:44.715: AppDelegate.application(didFinishLaunchingWithOptions: nil)
+2019-05-24 15:46:44.721: Index.init()
+2019-05-24 15:46:44.722: Cursor.init()
+2019-05-24 15:46:44.722: PhotoModel.init()
+2019-05-24 15:46:44.722: Defaults.object(forKey: photo_data) // no data for key
+2019-05-24 15:46:44.726: PhotosView.awakeFromNib()
+2019-05-24 15:46:44.737: MainView.viewDidLoad()
+2019-05-24 15:46:44.780: PhotosView.viewDidLoad()
+2019-05-24 15:46:44.782: PhotosView.updateContent()
+2019-05-24 15:46:44.783: PhotosView.updateLayout(animated: false)
+2019-05-24 15:46:44.810: AppDelegate.applicationDidBecomeActive()
+
+// Enter Search Field
+
+2019-05-24 15:47:03.645: PhotosView.searchBarTextDidBeginEditing(searchBar: <UISearchBar: 0x7fefb0e12730; frame = (0 139; 375 56); text = ''; opaque = NO; autoresize = RM+BM; gestureRecognizers = <NSArray: 0x60400045ede0>; layer = <CALayer: 0x60400022de40>>)
+2019-05-24 15:47:03.839: MainView.notificationHandler()
+
+// Search For Baby
+
+2019-05-24 15:47:03.645: PhotosView.searchBarTextDidBeginEditing(searchBar: <UISearchBar: 0x7fefb0e12730; frame = (0 139; 375 56); text = ''; opaque = NO; autoresize = RM+BM; gestureRecognizers = <NSArray: 0x60400045ede0>; layer = <CALayer: 0x60400022de40>>)
+2019-05-24 15:47:03.839: MainView.notificationHandler()
+2019-05-24 15:47:28.569: PhotosView.searchBar(searchBar: <UISearchBar: 0x7fefb0e12730; frame = (0 139; 375 56); text = 'B'; opaque = NO; autoresize = RM+BM; gestureRecognizers = <NSArray: 0x60400045ede0>; layer = <CALayer: 0x60400022de40>>, textDidChangeSearchText: B)
+2019-05-24 15:47:29.602: PhotosView.searchBar(searchBar: <UISearchBar: 0x7fefb0e12730; frame = (0 139; 375 56); text = 'Ba'; opaque = NO; autoresize = RM+BM; gestureRecognizers = <NSArray: 0x60400045ede0>; layer = <CALayer: 0x60400022de40>>, textDidChangeSearchText: Ba)
+2019-05-24 15:47:33.557: PhotosView.searchBar(searchBar: <UISearchBar: 0x7fefb0e12730; frame = (0 139; 375 56); text = 'Baby '; opaque = NO; autoresize = RM+BM; gestureRecognizers = <NSArray: 0x60400045ede0>; layer = <CALayer: 0x60400022de40>>, textDidChangeSearchText: Baby )
+2019-05-24 15:47:33.558: PhotosView.refresh()
+2019-05-24 15:47:33.558: PhotoModel.sendRequest(text: Baby )
+2019-05-24 15:47:33.565: Connection.init(auth: none, url: https://api.flickr.com/services/rest/?method=flickr.photos.search&api_key=675894853ae8ec6c242fa4c077bcf4a0&text=Baby%20&extras=url_s&format=json&nojsoncallback=1, method: get)
+2019-05-24 15:47:33.566: ConnectionManager.init()
+2019-05-24 15:47:33.567: ConnectionManager.sendRequest()
+2019-05-24 15:47:38.435: ConnectionManager.completionHandler()
+2019-05-24 15:47:38.437: PhotoModel.connectionManagerDidReceiveObject(object: {
+  photos =     {
+    page = 1;
+    pages = 2645;
+    perpage = 100;
+    photo =         (
+    {
+      farm = 66;
+      "height_s" = 160;
+      id = 47860217272;
+      isfamily = 0;
+      isfriend = 0;
+      ispublic = 1;
+      owner = "12274241@N02";
+      secret = d914734aa9;
+      server = 65535;
+      title = "Heron Dining On Turtle";
+      "url_s" = "https://live.staticflickr.com/65535/47860217272_d914734aa9_m.jpg";
+      "width_s" = 240;
+    },
+    {
+      farm = 66;
+      "height_s" = 231;
+      id = 40945604773;
+      isfamily = 0;
+      isfriend = 0;
+      ispublic = 1;
+      owner = "148935449@N04";
+      secret = 1b22967cf3;
+      server = 65535;
+      title = "9 PC baby Girl Crib Bedding Set,flower garden dragon fly cute and soft BRAND NEW";
+      "url_s" = "https://live.staticflickr.com/65535/40945604773_1b22967cf3_m.jpg";
+      "width_s" = 240;
+    },
+    {
+      farm = 66;
+      "height_s" = 148;
+      id = 40945575043;
+      isfamily = 0;
+      isfriend = 0;
+      ispublic = 1;
+      owner = "161742866@N06";
+      secret = cf298f951f;
+      server = 65535;
+      title = "How to Wear Baby with a Homemade T-Shirt Carrier";
+      "url_s" = "https://live.staticflickr.com/65535/40945575043_cf298f951f_m.jpg";
+      "width_s" = 240;
+    },
+    {
+      farm = 66;
+      "height_s" = 180;
+      id = 47122809204;
+      isfamily = 0;
+      isfriend = 0;
+      ispublic = 1;
+      owner = "30860410@N07";
+      secret = e43e706389;
+      server = 65535;
+      title = "Baby groundhog May 22 2019";
+      "url_s" = "https://live.staticflickr.com/65535/47122809204_e43e706389_m.jpg";
+      "width_s" = 240;
+    },
+    {
+      farm = 66;
+      "height_s" = 240;
+      id = 46996199335;
+      isfamily = 0;
+      isfriend = 0;
+      ispublic = 1;
+      owner = "163526714@N08";
+      secret = 2a3426b843;
+      server = 65535;
+      title = "Baby Love www.clf.mx #wrestling #fightlikeagirl #girlfight #luchadora #teen #gorgeous #leotard #beauty";
+      "url_s" = "https://live.staticflickr.com/65535/46996199335_2a3426b843_m.jpg";
+      "width_s" = 240;
+    },
+    {
+      farm = 66;
+      "height_s" = 159;
+      id = 47860104632;
+      isfamily = 0;
+      isfriend = 0;
+      ispublic = 1;
+      owner = "158026223@N07";
+      secret = 7018caccb3;
+      server = 65535;
+      title = "Baby smiles";
+      "url_s" = "https://live.staticflickr.com/65535/47860104632_7018caccb3_m.jpg";
+      "width_s" = 240;
+    },
+    {
+      farm = 66;
+      "height_s" = 240;
+      id = 47122754504;
+      isfamily = 0;
+      isfriend = 0;
+      ispublic = 1;
+      owner = "42097321@N00";
+      secret = bc6cb4087d;
+      server = 65535;
+      title = "Sweet mama Lillian has been missing her two babies who went to the adoption floor @heschatt yesterday, so we\U2019re laying on the couch together watching The Office. I figure if it works for human feelings maybe it\U2019ll help cat feelings too.";
+      "url_s" = "https://live.staticflickr.com/65535/47122754504_bc6cb4087d_m.jpg";
+      "width_s" = 240;
+    },
+    {
+      farm = 66;
+      "height_s" = 240;
+      id = 47122736304;
+      isfamily = 0;
+      isfriend = 0;
+      ispublic = 1;
+      owner = "165052533@N06";
+      secret = dc4c0a1f4a;
+      server = 65535;
+      title = "Fresh 48";
+      "url_s" = "https://live.staticflickr.com/65535/47122736304_dc4c0a1f4a_m.jpg";
+      "width_s" = 160;
+    },
+    {
+      farm = 66;
+      "height_s" = 160;
+      id = 47860105002;
+      isfamily = 0;
+      isfriend = 0;
+      ispublic = 1;
+      owner = "165052533@N06";
+      secret = 630f888c9e;
+      server = 65535;
+      title = "Fresh 48";
+      "url_s" = "https://live.staticflickr.com/65535/47860105002_630f888c9e_m.jpg";
+      "width_s" = 240;
+    },
+    {
+      farm = 66;
+      "height_s" = 124;
+      id = 47860093082;
+      isfamily = 0;
+      isfriend = 0;
+      ispublic = 1;
+      owner = "157013477@N03";
+      secret = 3be2e39f02;
+      server = 65535;
+      title = "MY BABY SONYA";
+      "url_s" = "https://live.staticflickr.com/65535/47860093082_3be2e39f02_m.jpg";
+      "width_s" = 240;
+    },
+    {
+      farm = 66;
+      "height_s" = 180;
+      id = 46995936955;
+      isfamily = 0;
+      isfriend = 0;
+      ispublic = 1;
+      owner = "158026223@N07";
+      secret = 620c045a66;
+      server = 65535;
+      title = "Baby_blue";
+      "url_s" = "https://live.staticflickr.com/65535/46995936955_620c045a66_m.jpg";
+      "width_s" = 240;
+    },
+    {
+      farm = 66;
+      "height_s" = 166;
+      id = 47912016211;
+      isfamily = 0;
+      isfriend = 0;
+      ispublic = 1;
+      owner = "38483315@N08";
+      secret = 3899dcd8ac;
+      server = 65535;
+      title = "Mama and her babies";
+      "url_s" = "https://live.staticflickr.com/65535/47912016211_3899dcd8ac_m.jpg";
+      "width_s" = 240;
+    },
+    {
+      farm = 66;
+      "height_s" = 192;
+      id = 40945360963;
+      isfamily = 0;
+      isfriend = 0;
+      ispublic = 1;
+      owner = "83727369@N04";
+      secret = ffeb329ac8;
+      server = 65535;
+      title = "Socks optional";
+      "url_s" = "https://live.staticflickr.com/65535/40945360963_ffeb329ac8_m.jpg";
+      "width_s" = 240;
+    },
+    {
+      farm = 66;
+      "height_s" = 148;
+      id = 47122610694;
+      isfamily = 0;
+      isfriend = 0;
+      ispublic = 1;
+      owner = "161742866@N06";
+      secret = 2fff659773;
+      server = 65535;
+      title = "How to Wear Baby with a Homemade T-Shirt Carrier";
+      "url_s" = "https://live.staticflickr.com/65535/47122610694_2fff659773_m.jpg";
+      "width_s" = 240;
+    },
+    {
+      farm = 66;
+      "height_s" = 148;
+      id = 47859972212;
+      isfamily = 0;
+      isfriend = 0;
+      ispublic = 1;
+      owner = "161742866@N06";
+      secret = acd1bfb590;
+      server = 65535;
+      title = "How to Wear Baby with a Homemade T-Shirt Carrier";
+      "url_s" = "https://live.staticflickr.com/65535/47859972212_acd1bfb590_m.jpg";
+      "width_s" = 240;
+    },
+    {
+      farm = 66;
+      "height_s" = 160;
+      id = 46995846545;
+      isfamily = 0;
+      isfriend = 0;
+      ispublic = 1;
+      owner = "91873856@N00";
+      secret = 972228a44d;
+      server = 65535;
+      title = "2019--22 May--The little birdies above our front porch in Martha's Vineyard; University Place, Washington";
+      "url_s" = "https://live.staticflickr.com/65535/46995846545_972228a44d_m.jpg";
+      "width_s" = 240;
+    },
+    {
+      farm = 66;
+      "height_s" = 127;
+      id = 47859934092;
+      isfamily = 0;
+      isfriend = 0;
+      ispublic = 1;
+      owner = "138366083@N04";
+      secret = d0e264a21e;
+      server = 65535;
+      title = "Baby...im not made of stones...";
+      "url_s" = "https://live.staticflickr.com/65535/47859934092_d0e264a21e_m.jpg";
+      "width_s" = 240;
+    },
+    {
+      farm = 66;
+      "height_s" = 160;
+      id = 40945274543;
+      isfamily = 0;
+      isfriend = 0;
+      ispublic = 1;
+      owner = "56595500@N03";
+      secret = f0bd5910fd;
+      server = 65535;
+      title = Gosling;
+      "url_s" = "https://live.staticflickr.com/65535/40945274543_f0bd5910fd_m.jpg";
+      "width_s" = 240;
+    },
+    {
+      farm = 66;
+      "height_s" = 160;
+      id = 47871554151;
+      isfamily = 0;
+      isfriend = 0;
+      ispublic = 1;
+      owner = "94209416@N06";
+      secret = 840ee8ec07;
+      server = 65535;
+      title = "Asian Elephant (Elephas maximus)";
+      "url_s" = "https://live.staticflickr.com/65535/47871554151_840ee8ec07_m.jpg";
+      "width_s" = 240;
+    },
+    {
+      farm = 66;
+      "height_s" = 168;
+      id = 33804145888;
+      isfamily = 0;
+      isfriend = 0;
+      ispublic = 1;
+      owner = "94209416@N06";
+      secret = 59d86ea6b8;
+      server = 65535;
+      title = "Western Chimpanzee";
+      "url_s" = "https://live.staticflickr.com/65535/33804145888_59d86ea6b8_m.jpg";
+      "width_s" = 240;
+    },
+    {
+      farm = 8;
+      "height_s" = 240;
+      id = 33595951918;
+      isfamily = 0;
+      isfriend = 0;
+      ispublic = 1;
+      owner = "94209416@N06";
+      secret = aa1f0ce5da;
+      server = 7866;
+      title = "Rothschild's Giraffe Calf (Giraffa camelopardalis rothschildi)";
+      "url_s" = "https://live.staticflickr.com/7866/33595951918_aa1f0ce5da_m.jpg";
+      "width_s" = 160;
+    },
+    {
+      farm = 66;
+      "height_s" = 240;
+      id = 47859882922;
+      isfamily = 0;
+      isfriend = 0;
+      ispublic = 1;
+      owner = "63368097@N05";
+      secret = 65998409b2;
+      server = 65535;
+      title = "Baby Quetzal.";
+      "url_s" = "https://live.staticflickr.com/65535/47859882922_65998409b2_m.jpg";
+      "width_s" = 192;
+    },
+    {
+      farm = 66;
+      "height_s" = 218;
+      id = 40945246843;
+      isfamily = 0;
+      isfriend = 0;
+      ispublic = 1;
+      owner = "148935449@N04";
+      secret = a30d871026;
+      server = 65535;
+      title = "Baby Walking Toy Toddlers Body Balance Training Walker With Flashlight and Sound";
+      "url_s" = "https://live.staticflickr.com/65535/40945246843_a30d871026_m.jpg";
+      "width_s" = 240;
+    },
+    {
+      farm = 66;
+      "height_s" = 240;
+      id = 40945245823;
+      isfamily = 0;
+      isfriend = 0;
+      ispublic = 1;
+      owner = "58647221@N02";
+      secret = d5ecbdc9f2;
+      server = 65535;
+      title = "Barbary Macaque & baby";
+      "url_s" = "https://live.staticflickr.com/65535/40945245823_d5ecbdc9f2_m.jpg";
+      "width_s" = 180;
+    },
+    {
+      farm = 66;
+      "height_s" = 228;
+      id = 47122489214;
+      isfamily = 0;
+      isfriend = 0;
+      ispublic = 1;
+      owner = "148935449@N04";
+      secret = 5cf841f4c3;
+      server = 65535;
+      title = "Liz and Roo Premium Baby Bedding Minky Blanket, Crib Sheet, and Skirt Elephant";
+      "url_s" = "https://live.staticflickr.com/65535/47122489214_5cf841f4c3_m.jpg";
+      "width_s" = 240;
+    },
+    {
+      farm = 66;
+      "height_s" = 192;
+      id = 40945214703;
+      isfamily = 0;
+      isfriend = 0;
+      ispublic = 1;
+      owner = "141599202@N04";
+      secret = be6ab8eb6e;
+      server = 65535;
+      title = Ducklings;
+      "url_s" = "https://live.staticflickr.com/65535/40945214703_be6ab8eb6e_m.jpg";
+      "width_s" = 240;
+    },
+    {
+      farm = 66;
+      "height_s" = 240;
+      id = 47859826672;
+      isfamily = 0;
+      isfriend = 0;
+      ispublic = 1;
+      owner = "141599202@N04";
+      secret = b67fb8b9bd;
+      server = 65535;
+      title = Ducklings;
+      "url_s" = "https://live.staticflickr.com/65535/47859826672_b67fb8b9bd_m.jpg";
+      "width_s" = 192;
+    },
+    {
+      farm = 66;
+      "height_s" = 240;
+      id = 40945214673;
+      isfamily = 0;
+      isfriend = 0;
+      ispublic = 1;
+      owner = "141599202@N04";
+      secret = eb5f410874;
+      server = 65535;
+      title = Ducklings;
+      "url_s" = "https://live.staticflickr.com/65535/40945214673_eb5f410874_m.jpg";
+      "width_s" = 192;
+    },
+    {
+      farm = 66;
+      "height_s" = 192;
+      id = 47911812461;
+      isfamily = 0;
+      isfriend = 0;
+      ispublic = 1;
+      owner = "141599202@N04";
+      secret = 32bfce5331;
+      server = 65535;
+      title = Ducklings;
+      "url_s" = "https://live.staticflickr.com/65535/47911812461_32bfce5331_m.jpg";
+      "width_s" = 240;
+    },
+    {
+      farm = 66;
+      "height_s" = 192;
+      id = 40945214363;
+      isfamily = 0;
+      isfriend = 0;
+      ispublic = 1;
+      owner = "141599202@N04";
+      secret = 2a329aa93d;
+      server = 65535;
+      title = Ducklings;
+      "url_s" = "https://live.staticflickr.com/65535/40945214363_2a329aa93d_m.jpg";
+      "width_s" = 240;
+    },
+    {
+      farm = 66;
+      "height_s" = 192;
+      id = 40945214273;
+      isfamily = 0;
+      isfriend = 0;
+      ispublic = 1;
+      owner = "141599202@N04";
+      secret = e5930d7afe;
+      server = 65535;
+      title = Ducklings;
+      "url_s" = "https://live.staticflickr.com/65535/40945214273_e5930d7afe_m.jpg";
+      "width_s" = 240;
+    },
+    {
+      farm = 66;
+      "height_s" = 192;
+      id = 46995857105;
+      isfamily = 0;
+      isfriend = 0;
+      ispublic = 1;
+      owner = "141599202@N04";
+      secret = 8162a924d8;
+      server = 65535;
+      title = Ducklings;
+      "url_s" = "https://live.staticflickr.com/65535/46995857105_8162a924d8_m.jpg";
+      "width_s" = 240;
+    },
+    {
+      farm = 66;
+      "height_s" = 192;
+      id = 47859826302;
+      isfamily = 0;
+      isfriend = 0;
+      ispublic = 1;
+      owner = "141599202@N04";
+      secret = 1bbfa4ec4f;
+      server = 65535;
+      title = Ducklings;
+      "url_s" = "https://live.staticflickr.com/65535/47859826302_1bbfa4ec4f_m.jpg";
+      "width_s" = 240;
+    },
+    {
+      farm = 66;
+      "height_s" = 192;
+      id = 46995857075;
+      isfamily = 0;
+      isfriend = 0;
+      ispublic = 1;
+      owner = "141599202@N04";
+      secret = b8a4111ac5;
+      server = 65535;
+      title = Ducklings;
+      "url_s" = "https://live.staticflickr.com/65535/46995857075_b8a4111ac5_m.jpg";
+      "width_s" = 240;
+    },
+    {
+      farm = 66;
+      "height_s" = 192;
+      id = 47911812241;
+      isfamily = 0;
+      isfriend = 0;
+      ispublic = 1;
+      owner = "141599202@N04";
+      secret = 4e21bcfea6;
+      server = 65535;
+      title = Ducklings;
+      "url_s" = "https://live.staticflickr.com/65535/47911812241_4e21bcfea6_m.jpg";
+      "width_s" = 240;
+    },
+    {
+      farm = 66;
+      "height_s" = 240;
+      id = 47859826112;
+      isfamily = 0;
+      isfriend = 0;
+      ispublic = 1;
+      owner = "141599202@N04";
+      secret = 13a218df81;
+      server = 65535;
+      title = Ducklings;
+      "url_s" = "https://live.staticflickr.com/65535/47859826112_13a218df81_m.jpg";
+      "width_s" = 192;
+    },
+    {
+      farm = 66;
+      "height_s" = 192;
+      id = 47122473364;
+      isfamily = 0;
+      isfriend = 0;
+      ispublic = 1;
+      owner = "141599202@N04";
+      secret = 1943e2f25d;
+      server = 65535;
+      title = Ducklings;
+      "url_s" = "https://live.staticflickr.com/65535/47122473364_1943e2f25d_m.jpg";
+      "width_s" = 240;
+    },
+    {
+      farm = 66;
+      "height_s" = 192;
+      id = 40945214033;
+      isfamily = 0;
+      isfriend = 0;
+      ispublic = 1;
+      owner = "141599202@N04";
+      secret = 29aea626a5;
+      server = 65535;
+      title = Ducklings;
+      "url_s" = "https://live.staticflickr.com/65535/40945214033_29aea626a5_m.jpg";
+      "width_s" = 240;
+    },
+    {
+      farm = 66;
+      "height_s" = 192;
+      id = 47859826052;
+      isfamily = 0;
+      isfriend = 0;
+      ispublic = 1;
+      owner = "141599202@N04";
+      secret = b2524a1278;
+      server = 65535;
+      title = Ducklings;
+      "url_s" = "https://live.staticflickr.com/65535/47859826052_b2524a1278_m.jpg";
+      "width_s" = 240;
+    },
+    {
+      farm = 66;
+      "height_s" = 240;
+      id = 47911805181;
+      isfamily = 0;
+      isfriend = 0;
+      ispublic = 1;
+      owner = "148329682@N03";
+      secret = de735433e5;
+      server = 65535;
+      title = "Shared girls closet / toddler and baby";
+      "url_s" = "https://live.staticflickr.com/65535/47911805181_de735433e5_m.jpg";
+      "width_s" = 135;
+    },
+    {
+      farm = 66;
+      "height_s" = 240;
+      id = 46995840885;
+      isfamily = 0;
+      isfriend = 0;
+      ispublic = 1;
+      owner = "170153194@N05";
+      secret = 34c118472d;
+      server = 65535;
+      title = "TRU~Unicorn Tank";
+      "url_s" = "https://live.staticflickr.com/65535/46995840885_34c118472d_m.jpg";
+      "width_s" = 187;
+    },
+    {
+      farm = 66;
+      "height_s" = 160;
+      id = 46995830765;
+      isfamily = 0;
+      isfriend = 0;
+      ispublic = 1;
+      owner = "98403995@N08";
+      secret = 31e7f29d28;
+      server = 65535;
+      title = "Cambodia - Phnom Penh - Royal Palace - Sitting Buddha - 37g";
+      "url_s" = "https://live.staticflickr.com/65535/46995830765_31e7f29d28_m.jpg";
+      "width_s" = 240;
+    },
+    {
+      farm = 66;
+      "height_s" = 240;
+      id = 40945177743;
+      isfamily = 0;
+      isfriend = 0;
+      ispublic = 1;
+      owner = "163639991@N04";
+      secret = 9ebb3247c3;
+      server = 65535;
+      title = "Dinosaur Wooden Baby Hospital Door Hanger";
+      "url_s" = "https://live.staticflickr.com/65535/40945177743_9ebb3247c3_m.jpg";
+      "width_s" = 240;
+    },
+    {
+      farm = 66;
+      "height_s" = 180;
+      id = 47122409614;
+      isfamily = 0;
+      isfriend = 0;
+      ispublic = 1;
+      owner = "142907647@N02";
+      secret = 4184283aa9;
+      server = 65535;
+      title = Goslings;
+      "url_s" = "https://live.staticflickr.com/65535/47122409614_4184283aa9_m.jpg";
+      "width_s" = 240;
+    },
+    {
+      farm = 66;
+      "height_s" = 180;
+      id = 47859764192;
+      isfamily = 0;
+      isfriend = 0;
+      ispublic = 1;
+      owner = "142907647@N02";
+      secret = 4a4abe9622;
+      server = 65535;
+      title = Goslings;
+      "url_s" = "https://live.staticflickr.com/65535/47859764192_4a4abe9622_m.jpg";
+      "width_s" = 240;
+    },
+    {
+      farm = 66;
+      "height_s" = 135;
+      id = 46995785235;
+      isfamily = 0;
+      isfriend = 0;
+      ispublic = 1;
+      owner = "98403995@N08";
+      secret = ab3c9dc58b;
+      server = 65535;
+      title = "Cambodia - Phnom Penh - Royal Palace - Sitting Buddha - 30g";
+      "url_s" = "https://live.staticflickr.com/65535/46995785235_ab3c9dc58b_m.jpg";
+      "width_s" = 240;
+    },
+    {
+      farm = 66;
+      "height_s" = 180;
+      id = 40945134413;
+      isfamily = 0;
+      isfriend = 0;
+      ispublic = 1;
+      owner = "160829031@N05";
+      secret = 6010cf8560;
+      server = 65535;
+      title = "Dogwood Baby Blue";
+      "url_s" = "https://live.staticflickr.com/65535/40945134413_6010cf8560_m.jpg";
+      "width_s" = 240;
+    },
+    {
+      farm = 66;
+      "height_s" = 240;
+      id = 40945119193;
+      isfamily = 0;
+      isfriend = 0;
+      ispublic = 1;
+      owner = "157823186@N08";
+      secret = 7fde1eaf63;
+      server = 65535;
+      title = "Bassinets and Cradles 20423: Sunggle Me Organic The Original Co-Sleeping Baby Be\U2026";
+      "url_s" = "https://live.staticflickr.com/65535/40945119193_7fde1eaf63_m.jpg";
+      "width_s" = 60;
+    },
+    {
+      farm = 66;
+      "height_s" = 212;
+      id = 47911688941;
+      isfamily = 0;
+      isfriend = 0;
+      ispublic = 1;
+      owner = "58686168@N06";
+      secret = ce47201e27;
+      server = 65535;
+      title = Hozier;
+      "url_s" = "https://live.staticflickr.com/65535/47911688941_ce47201e27_m.jpg";
+      "width_s" = 240;
+    },
+    {
+      farm = 66;
+      "height_s" = 159;
+      id = 47122362044;
+      isfamily = 0;
+      isfriend = 0;
+      ispublic = 1;
+      owner = "58686168@N06";
+      secret = 17d90eeec0;
+      server = 65535;
+      title = "Hozier-2";
+      "url_s" = "https://live.staticflickr.com/65535/47122362044_17d90eeec0_m.jpg";
+      "width_s" = 240;
+    },
+    {
+      farm = 66;
+      "height_s" = 180;
+      id = 47911688531;
+      isfamily = 0;
+      isfriend = 0;
+      ispublic = 1;
+      owner = "58686168@N06";
+      secret = a22f4b70d9;
+      server = 65535;
+      title = "Hozier-3";
+      "url_s" = "https://live.staticflickr.com/65535/47911688531_a22f4b70d9_m.jpg";
+      "width_s" = 240;
+    },
+    {
+      farm = 66;
+      "height_s" = 160;
+      id = 47122361494;
+      isfamily = 0;
+      isfriend = 0;
+      ispublic = 1;
+      owner = "58686168@N06";
+      secret = efa54ea8e1;
+      server = 65535;
+      title = "Hozier-4";
+      "url_s" = "https://live.staticflickr.com/65535/47122361494_efa54ea8e1_m.jpg";
+      "width_s" = 240;
+    },
+    {
+      farm = 66;
+      "height_s" = 160;
+      id = 47911687771;
+      isfamily = 0;
+      isfriend = 0;
+      ispublic = 1;
+      owner = "58686168@N06";
+      secret = ddfd0cb3c4;
+      server = 65535;
+      title = "Hozier-6";
+      "url_s" = "https://live.staticflickr.com/65535/47911687771_ddfd0cb3c4_m.jpg";
+      "width_s" = 240;
+    },
+    {
+      farm = 66;
+      "height_s" = 160;
+      id = 47911687321;
+      isfamily = 0;
+      isfriend = 0;
+      ispublic = 1;
+      owner = "58686168@N06";
+      secret = f360f644b7;
+      server = 65535;
+      title = "Hozier-7";
+      "url_s" = "https://live.staticflickr.com/65535/47911687321_f360f644b7_m.jpg";
+      "width_s" = 240;
+    },
+    {
+      farm = 66;
+      "height_s" = 160;
+      id = 47911687031;
+      isfamily = 0;
+      isfriend = 0;
+      ispublic = 1;
+      owner = "58686168@N06";
+      secret = 8a45425c4b;
+      server = 65535;
+      title = "Hozier-8";
+      "url_s" = "https://live.staticflickr.com/65535/47911687031_8a45425c4b_m.jpg";
+      "width_s" = 240;
+    },
+    {
+      farm = 66;
+      "height_s" = 160;
+      id = 47911686781;
+      isfamily = 0;
+      isfriend = 0;
+      ispublic = 1;
+      owner = "58686168@N06";
+      secret = a58cf4e120;
+      server = 65535;
+      title = "Hozier-9";
+      "url_s" = "https://live.staticflickr.com/65535/47911686781_a58cf4e120_m.jpg";
+      "width_s" = 240;
+    },
+    {
+      farm = 66;
+      "height_s" = 160;
+      id = 47911686501;
+      isfamily = 0;
+      isfriend = 0;
+      ispublic = 1;
+      owner = "58686168@N06";
+      secret = 63f5830587;
+      server = 65535;
+      title = "Hozier-10";
+      "url_s" = "https://live.staticflickr.com/65535/47911686501_63f5830587_m.jpg";
+      "width_s" = 240;
+    },
+    {
+      farm = 66;
+      "height_s" = 160;
+      id = 47122360214;
+      isfamily = 0;
+      isfriend = 0;
+      ispublic = 1;
+      owner = "58686168@N06";
+      secret = abe0a1980e;
+      server = 65535;
+      title = "Hozier-11";
+      "url_s" = "https://live.staticflickr.com/65535/47122360214_abe0a1980e_m.jpg";
+      "width_s" = 240;
+    },
+    {
+      farm = 66;
+      "height_s" = 160;
+      id = 47911686091;
+      isfamily = 0;
+      isfriend = 0;
+      ispublic = 1;
+      owner = "58686168@N06";
+      secret = 76ecc9aba4;
+      server = 65535;
+      title = "Hozier-12";
+      "url_s" = "https://live.staticflickr.com/65535/47911686091_76ecc9aba4_m.jpg";
+      "width_s" = 240;
+    },
+    {
+      farm = 66;
+      "height_s" = 160;
+      id = 47122359864;
+      isfamily = 0;
+      isfriend = 0;
+      ispublic = 1;
+      owner = "58686168@N06";
+      secret = e2db30aeb1;
+      server = 65535;
+      title = "Hozier-13";
+      "url_s" = "https://live.staticflickr.com/65535/47122359864_e2db30aeb1_m.jpg";
+      "width_s" = 240;
+    },
+    {
+      farm = 66;
+      "height_s" = 160;
+      id = 47122359674;
+      isfamily = 0;
+      isfriend = 0;
+      ispublic = 1;
+      owner = "58686168@N06";
+      secret = 328409e0c0;
+      server = 65535;
+      title = "Hozier-14";
+      "url_s" = "https://live.staticflickr.com/65535/47122359674_328409e0c0_m.jpg";
+      "width_s" = 240;
+    },
+    {
+      farm = 66;
+      "height_s" = 160;
+      id = 47911685181;
+      isfamily = 0;
+      isfriend = 0;
+      ispublic = 1;
+      owner = "58686168@N06";
+      secret = 96da79702b;
+      server = 65535;
+      title = "Hozier-15";
+      "url_s" = "https://live.staticflickr.com/65535/47911685181_96da79702b_m.jpg";
+      "width_s" = 240;
+    },
+    {
+      farm = 66;
+      "height_s" = 160;
+      id = 47122359424;
+      isfamily = 0;
+      isfriend = 0;
+      ispublic = 1;
+      owner = "58686168@N06";
+      secret = bafc9af05d;
+      server = 65535;
+      title = "Hozier-16";
+      "url_s" = "https://live.staticflickr.com/65535/47122359424_bafc9af05d_m.jpg";
+      "width_s" = 240;
+    },
+    {
+      farm = 66;
+      "height_s" = 160;
+      id = 47911684671;
+      isfamily = 0;
+      isfriend = 0;
+      ispublic = 1;
+      owner = "58686168@N06";
+      secret = 5966572015;
+      server = 65535;
+      title = "Hozier-5";
+      "url_s" = "https://live.staticflickr.com/65535/47911684671_5966572015_m.jpg";
+      "width_s" = 240;
+    },
+    {
+      farm = 66;
+      "height_s" = 160;
+      id = 47122359204;
+      isfamily = 0;
+      isfriend = 0;
+      ispublic = 1;
+      owner = "58686168@N06";
+      secret = d726973a6a;
+      server = 65535;
+      title = "Hozier-17";
+      "url_s" = "https://live.staticflickr.com/65535/47122359204_d726973a6a_m.jpg";
+      "width_s" = 240;
+    },
+    {
+      farm = 66;
+      "height_s" = 184;
+      id = 47911664221;
+      isfamily = 0;
+      isfriend = 0;
+      ispublic = 1;
+      owner = "170164384@N04";
+      secret = 04bbb76c93;
+      server = 65535;
+      title = "Munchkin In Sight Baby Mirror In Car Child View Sight Monitor";
+      "url_s" = "https://live.staticflickr.com/65535/47911664221_04bbb76c93_m.jpg";
+      "width_s" = 240;
+    },
+    {
+      farm = 66;
+      "height_s" = 127;
+      id = 46995706905;
+      isfamily = 0;
+      isfriend = 0;
+      ispublic = 1;
+      owner = "153865163@N05";
+      secret = 27f1787a15;
+      server = 65535;
+      title = "New World Order";
+      "url_s" = "https://live.staticflickr.com/65535/46995706905_27f1787a15_m.jpg";
+      "width_s" = 240;
+    },
+    {
+      farm = 66;
+      "height_s" = 240;
+      id = 47911654891;
+      isfamily = 0;
+      isfriend = 0;
+      ispublic = 1;
+      owner = "148935449@N04";
+      secret = 2aa40633cb;
+      server = 65535;
+      title = "Disney Baby Bedding Mickey Mouse 3-Piece Portable Crib Bedding Set";
+      "url_s" = "https://live.staticflickr.com/65535/47911654891_2aa40633cb_m.jpg";
+      "width_s" = 240;
+    },
+    {
+      farm = 66;
+      "height_s" = 240;
+      id = 47122296724;
+      isfamily = 0;
+      isfriend = 0;
+      ispublic = 1;
+      owner = "156033565@N06";
+      secret = 9f48ab7c87;
+      server = 65535;
+      title = "No Peeking";
+      "url_s" = "https://live.staticflickr.com/65535/47122296724_9f48ab7c87_m.jpg";
+      "width_s" = 204;
+    },
+    {
+      farm = 66;
+      "height_s" = 160;
+      id = 47911628351;
+      isfamily = 0;
+      isfriend = 0;
+      ispublic = 1;
+      owner = "148093908@N08";
+      secret = ca9f62400d;
+      server = 65535;
+      title = Nesting;
+      "url_s" = "https://live.staticflickr.com/65535/47911628351_ca9f62400d_m.jpg";
+      "width_s" = 240;
+    },
+    {
+      farm = 66;
+      "height_s" = 240;
+      id = 47911548471;
+      isfamily = 0;
+      isfriend = 0;
+      ispublic = 1;
+      owner = "72096526@N04";
+      secret = db8636f9c0;
+      server = 65535;
+      title = "Sweet Dreams";
+      "url_s" = "https://live.staticflickr.com/65535/47911548471_db8636f9c0_m.jpg";
+      "width_s" = 240;
+    },
+    {
+      farm = 66;
+      "height_s" = 180;
+      id = 46995494945;
+      isfamily = 0;
+      isfriend = 0;
+      ispublic = 1;
+      owner = "59081381@N03";
+      secret = 418377d3ce;
+      server = 65535;
+      title = "Candy House Baby Sign, Cairo Airport, al-Q\U0101hirah, CG, EGY";
+      "url_s" = "https://live.staticflickr.com/65535/46995494945_418377d3ce_m.jpg";
+      "width_s" = 240;
+    },
+    {
+      farm = 66;
+      "height_s" = 240;
+      id = 47859620292;
+      isfamily = 0;
+      isfriend = 0;
+      ispublic = 1;
+      owner = "169924384@N05";
+      secret = c3a70e28e3;
+      server = 65535;
+      title = "Transform Hemnes bed of IKEA into a baby bed\U2026 cod.: 500.803.15 is creative ins\U2026";
+      "url_s" = "https://live.staticflickr.com/65535/47859620292_c3a70e28e3_m.jpg";
+      "width_s" = 195;
+    },
+    {
+      farm = 66;
+      "height_s" = 240;
+      id = 47911598441;
+      isfamily = 0;
+      isfriend = 0;
+      ispublic = 1;
+      owner = "169964888@N03";
+      secret = 46f1b446ff;
+      server = 65535;
+      title = "European Luxury Fairy Tale Style Pumpkin Shape Crib Kids Dream Baby Cot Bed Germany Beech";
+      "url_s" = "https://live.staticflickr.com/65535/47911598441_46f1b446ff_m.jpg";
+      "width_s" = 180;
+    },
+    {
+      farm = 66;
+      "height_s" = 112;
+      id = 47122238674;
+      isfamily = 0;
+      isfriend = 0;
+      ispublic = 1;
+      owner = "145526060@N05";
+      secret = be67eafb74;
+      server = 65535;
+      title = "Melissa and Melody's Baby Bath Time 2";
+      "url_s" = "https://live.staticflickr.com/65535/47122238674_be67eafb74_m.jpg";
+      "width_s" = 240;
+    },
+    {
+      farm = 66;
+      "height_s" = 205;
+      id = 46995625495;
+      isfamily = 0;
+      isfriend = 0;
+      ispublic = 1;
+      owner = "145526060@N05";
+      secret = 84c2276a1d;
+      server = 65535;
+      title = "Melissa and Melody's Baby Bath Time";
+      "url_s" = "https://live.staticflickr.com/65535/46995625495_84c2276a1d_m.jpg";
+      "width_s" = 240;
+    },
+    {
+      farm = 66;
+      "height_s" = 240;
+      id = 40944965173;
+      isfamily = 0;
+      isfriend = 0;
+      ispublic = 1;
+      owner = "157823186@N08";
+      secret = bd73b1b2f0;
+      server = 65535;
+      title = "Baby Jogger City Select Twin Double troller Quartz with Second Seat & Bassinet";
+      "url_s" = "https://live.staticflickr.com/65535/40944965173_bd73b1b2f0_m.jpg";
+      "width_s" = 91;
+    },
+    {
+      farm = 66;
+      "height_s" = 128;
+      id = 47122204804;
+      isfamily = 0;
+      isfriend = 0;
+      ispublic = 1;
+      owner = "68906155@N06";
+      secret = 76f5e84abd;
+      server = 65535;
+      title = "quarterly baby shower static slide";
+      "url_s" = "https://live.staticflickr.com/65535/47122204804_76f5e84abd_m.jpg";
+      "width_s" = 240;
+    },
+    {
+      farm = 66;
+      "height_s" = 160;
+      id = 46995566195;
+      isfamily = 0;
+      isfriend = 0;
+      ispublic = 1;
+      owner = "156701458@N02";
+      secret = 73a59f07fa;
+      server = 65535;
+      title = "\U2606 Post Nr. 243 Sweet Tots \U2013 Mommys Girl and I Love You Mom \U2606";
+      "url_s" = "https://live.staticflickr.com/65535/46995566195_73a59f07fa_m.jpg";
+      "width_s" = 240;
+    },
+    {
+      farm = 66;
+      "height_s" = 135;
+      id = 47859484362;
+      isfamily = 0;
+      isfriend = 0;
+      ispublic = 1;
+      owner = "98403995@N08";
+      secret = 4d3289371c;
+      server = 65535;
+      title = "Cambodia - Phnom Penh - Royal Palace - 31ee";
+      "url_s" = "https://live.staticflickr.com/65535/47859484362_4d3289371c_m.jpg";
+      "width_s" = 240;
+    },
+    {
+      farm = 66;
+      "height_s" = 133;
+      id = 40944835063;
+      isfamily = 0;
+      isfriend = 0;
+      ispublic = 1;
+      owner = "157823186@N08";
+      secret = 0781ab928a;
+      server = 65535;
+      title = "10 Piece Set NOJO Baby Infant Crib Little Bedding Ocean Dreams Octopus Nursery";
+      "url_s" = "https://live.staticflickr.com/65535/40944835063_0781ab928a_m.jpg";
+      "width_s" = 140;
+    },
+    {
+      farm = 66;
+      "height_s" = 160;
+      id = 46995469255;
+      isfamily = 0;
+      isfriend = 0;
+      ispublic = 1;
+      owner = "64320477@N05";
+      secret = b2bdbb3a35;
+      server = 65535;
+      title = "Babyfoot XL";
+      "url_s" = "https://live.staticflickr.com/65535/46995469255_b2bdbb3a35_m.jpg";
+      "width_s" = 240;
+    },
+    {
+      farm = 66;
+      "height_s" = 240;
+      id = 47911412781;
+      isfamily = 0;
+      isfriend = 0;
+      ispublic = 1;
+      owner = "82216392@N00";
+      secret = fc52636a86;
+      server = 65535;
+      title = "Sick baby";
+      "url_s" = "https://live.staticflickr.com/65535/47911412781_fc52636a86_m.jpg";
+      "width_s" = 185;
+    },
+    {
+      farm = 66;
+      "height_s" = 176;
+      id = 40944811523;
+      isfamily = 0;
+      isfriend = 0;
+      ispublic = 1;
+      owner = "98292634@N00";
+      secret = f00992031c;
+      server = 65535;
+      title = "closer babies";
+      "url_s" = "https://live.staticflickr.com/65535/40944811523_f00992031c_m.jpg";
+      "width_s" = 240;
+    },
+    {
+      farm = 66;
+      "height_s" = 148;
+      id = 47911380641;
+      isfamily = 0;
+      isfriend = 0;
+      ispublic = 1;
+      owner = "161742866@N06";
+      secret = b1d41812c4;
+      server = 65535;
+      title = "How to Wear Baby with a Homemade T-Shirt Carrier";
+      "url_s" = "https://live.staticflickr.com/65535/47911380641_b1d41812c4_m.jpg";
+      "width_s" = 240;
+    },
+    {
+      farm = 66;
+      "height_s" = 160;
+      id = 46995422235;
+      isfamily = 0;
+      isfriend = 0;
+      ispublic = 1;
+      owner = "98911464@N00";
+      secret = eab5753b53;
+      server = 65535;
+      title = "Making Waves";
+      "url_s" = "https://live.staticflickr.com/65535/46995422235_eab5753b53_m.jpg";
+      "width_s" = 240;
+    },
+    {
+      farm = 66;
+      "height_s" = 160;
+      id = 47911359061;
+      isfamily = 0;
+      isfriend = 0;
+      ispublic = 1;
+      owner = "98911464@N00";
+      secret = a2c9dd72b0;
+      server = 65535;
+      title = PeekaBoo;
+      "url_s" = "https://live.staticflickr.com/65535/47911359061_a2c9dd72b0_m.jpg";
+      "width_s" = 240;
+    },
+    {
+      farm = 66;
+      "height_s" = 160;
+      id = 46995421695;
+      isfamily = 0;
+      isfriend = 0;
+      ispublic = 1;
+      owner = "98911464@N00";
+      secret = 89f9aec231;
+      server = 65535;
+      title = "Spring at the Marsh";
+      "url_s" = "https://live.staticflickr.com/65535/46995421695_89f9aec231_m.jpg";
+      "width_s" = 240;
+    },
+    {
+      farm = 66;
+      "height_s" = 240;
+      id = 40944695593;
+      isfamily = 0;
+      isfriend = 0;
+      ispublic = 1;
+      owner = "82216392@N00";
+      secret = e19b479fce;
+      server = 65535;
+      title = "Super baby";
+      "url_s" = "https://live.staticflickr.com/65535/40944695593_e19b479fce_m.jpg";
+      "width_s" = 160;
+    },
+    {
+      farm = 66;
+      "height_s" = 135;
+      id = 40944736383;
+      isfamily = 0;
+      isfriend = 0;
+      ispublic = 1;
+      owner = "98403995@N08";
+      secret = d20f3f2e99;
+      server = 65535;
+      title = "Cambodia - Phnom Penh - Royal Palace - Buddha Image - 34g";
+      "url_s" = "https://live.staticflickr.com/65535/40944736383_d20f3f2e99_m.jpg";
+      "width_s" = 240;
+    },
+    {
+      farm = 66;
+      "height_s" = 160;
+      id = 47911316291;
+      isfamily = 0;
+      isfriend = 0;
+      ispublic = 1;
+      owner = "166412356@N06";
+      secret = 4baae38b4b;
+      server = 65535;
+      title = "Baby Hippo";
+      "url_s" = "https://live.staticflickr.com/65535/47911316291_4baae38b4b_m.jpg";
+      "width_s" = 240;
+    },
+    {
+      farm = 66;
+      "height_s" = 168;
+      id = 47859318432;
+      isfamily = 0;
+      isfriend = 0;
+      ispublic = 1;
+      owner = "98292634@N00";
+      secret = f1ef0e0c82;
+      server = 65535;
+      title = "SRX00478 Hen and Poults";
+      "url_s" = "https://live.staticflickr.com/65535/47859318432_f1ef0e0c82_m.jpg";
+      "width_s" = 240;
+    },
+    {
+      farm = 66;
+      "height_s" = 240;
+      id = 47121983814;
+      isfamily = 0;
+      isfriend = 0;
+      ispublic = 1;
+      owner = "145554195@N02";
+      secret = 0274c16985;
+      server = 65535;
+      title = "BABY DRIVER NOEL LINDO QUE FEZ";
+      "url_s" = "https://live.staticflickr.com/65535/47121983814_0274c16985_m.jpg";
+      "width_s" = 165;
+    },
+    {
+      farm = 66;
+      "height_s" = 240;
+      id = 47121955484;
+      isfamily = 0;
+      isfriend = 0;
+      ispublic = 1;
+      owner = "145554195@N02";
+      secret = d8f5681779;
+      server = 65535;
+      title = "baby driver e nois";
+      "url_s" = "https://live.staticflickr.com/65535/47121955484_d8f5681779_m.jpg";
+      "width_s" = 165;
+    },
+    {
+      farm = 66;
+      "height_s" = 160;
+      id = 47121939414;
+      isfamily = 0;
+      isfriend = 0;
+      ispublic = 1;
+      owner = "53625746@N02";
+      secret = 476c85dc1f;
+      server = 65535;
+      title = "Dreamcatcher I";
+      "url_s" = "https://live.staticflickr.com/65535/47121939414_476c85dc1f_m.jpg";
+      "width_s" = 240;
+    },
+    {
+      farm = 66;
+      "height_s" = 160;
+      id = 40944670073;
+      isfamily = 0;
+      isfriend = 0;
+      ispublic = 1;
+      owner = "53625746@N02";
+      secret = a4e88dbca0;
+      server = 65535;
+      title = "Dreamcatcher II";
+      "url_s" = "https://live.staticflickr.com/65535/40944670073_a4e88dbca0_m.jpg";
+      "width_s" = 240;
+    },
+    {
+      farm = 66;
+      "height_s" = 240;
+      id = 40943089103;
+      isfamily = 0;
+      isfriend = 0;
+      ispublic = 1;
+      owner = "171459625@N05";
+      secret = 4516e0e715;
+      server = 65535;
+      title = "Merino Wool Waldorf style fairy/angel";
+      "url_s" = "https://live.staticflickr.com/65535/40943089103_4516e0e715_m.jpg";
+      "width_s" = 180;
+    },
+    {
+      farm = 66;
+      "height_s" = 240;
+      id = 47120366994;
+      isfamily = 0;
+      isfriend = 0;
+      ispublic = 1;
+      owner = "171459625@N05";
+      secret = 7a750c077e;
+      server = 65535;
+      title = "Merino Wool Waldorf style fairy/angel";
+      "url_s" = "https://live.staticflickr.com/65535/47120366994_7a750c077e_m.jpg";
+      "width_s" = 180;
+    },
+    {
+      farm = 66;
+      "height_s" = 240;
+      id = 40943088813;
+      isfamily = 0;
+      isfriend = 0;
+      ispublic = 1;
+      owner = "171459625@N05";
+      secret = 2c75b72828;
+      server = 65535;
+      title = "Merino Wool Waldorf style fairy/angel";
+      "url_s" = "https://live.staticflickr.com/65535/40943088813_2c75b72828_m.jpg";
+      "width_s" = 180;
+    }
+    );
+    total = 264486;
+  };
+  stat = ok;
+})
+2019-05-24 15:47:38.525: Photo.init(withDict: ["title": Heron Dining On Turtle, "owner": 12274241@N02, "secret": d914734aa9, "ispublic": 1, "isfamily": 0, "isfriend": 0, "height_s": 160, "server": 65535, "id": 47860217272, "url_s": https://live.staticflickr.com/65535/47860217272_d914734aa9_m.jpg, "farm": 66, "width_s": 240])
+2019-05-24 15:47:38.527: Photo.init(withDict: ["title": 9 PC baby Girl Crib Bedding Set,flower garden dragon fly cute and soft BRAND NEW, "owner": 148935449@N04, "secret": 1b22967cf3, "ispublic": 1, "isfamily": 0, "isfriend": 0, "height_s": 231, "server": 65535, "id": 40945604773, "url_s": https://live.staticflickr.com/65535/40945604773_1b22967cf3_m.jpg, "farm": 66, "width_s": 240])
+2019-05-24 15:47:38.528: Photo.init(withDict: ["title": How to Wear Baby with a Homemade T-Shirt Carrier, "owner": 161742866@N06, "secret": cf298f951f, "ispublic": 1, "isfamily": 0, "isfriend": 0, "height_s": 148, "server": 65535, "id": 40945575043, "url_s": https://live.staticflickr.com/65535/40945575043_cf298f951f_m.jpg, "farm": 66, "width_s": 240])
+2019-05-24 15:47:38.528: Photo.init(withDict: ["title": Baby groundhog May 22 2019, "owner": 30860410@N07, "secret": e43e706389, "ispublic": 1, "isfamily": 0, "isfriend": 0, "height_s": 180, "server": 65535, "id": 47122809204, "url_s": https://live.staticflickr.com/65535/47122809204_e43e706389_m.jpg, "farm": 66, "width_s": 240])
+2019-05-24 15:47:38.529: Photo.init(withDict: ["title": Baby Love www.clf.mx #wrestling #fightlikeagirl #girlfight #luchadora #teen #gorgeous #leotard #beauty, "owner": 163526714@N08, "secret": 2a3426b843, "ispublic": 1, "isfamily": 0, "isfriend": 0, "height_s": 240, "server": 65535, "id": 46996199335, "url_s": https://live.staticflickr.com/65535/46996199335_2a3426b843_m.jpg, "farm": 66, "width_s": 240])
+2019-05-24 15:47:38.548: Photo.init(withDict: ["title": Baby smiles, "owner": 158026223@N07, "secret": 7018caccb3, "ispublic": 1, "isfamily": 0, "isfriend": 0, "height_s": 159, "server": 65535, "id": 47860104632, "url_s": https://live.staticflickr.com/65535/47860104632_7018caccb3_m.jpg, "farm": 66, "width_s": 240])
+2019-05-24 15:47:38.549: Photo.init(withDict: ["title": Sweet mama Lillian has been missing her two babies who went to the adoption floor @heschatt yesterday, so we’re laying on the couch together watching The Office. I figure if it works for human feelings maybe it’ll help cat feelings too., "owner": 42097321@N00, "secret": bc6cb4087d, "ispublic": 1, "isfamily": 0, "isfriend": 0, "height_s": 240, "server": 65535, "id": 47122754504, "url_s": https://live.staticflickr.com/65535/47122754504_bc6cb4087d_m.jpg, "farm": 66, "width_s": 240])
+2019-05-24 15:47:38.550: Photo.init(withDict: ["title": Fresh 48, "owner": 165052533@N06, "secret": dc4c0a1f4a, "ispublic": 1, "isfamily": 0, "isfriend": 0, "height_s": 240, "server": 65535, "id": 47122736304, "url_s": https://live.staticflickr.com/65535/47122736304_dc4c0a1f4a_m.jpg, "farm": 66, "width_s": 160])
+2019-05-24 15:47:38.551: Photo.init(withDict: ["title": Fresh 48, "owner": 165052533@N06, "secret": 630f888c9e, "ispublic": 1, "isfamily": 0, "isfriend": 0, "height_s": 160, "server": 65535, "id": 47860105002, "url_s": https://live.staticflickr.com/65535/47860105002_630f888c9e_m.jpg, "farm": 66, "width_s": 240])
+2019-05-24 15:47:38.552: Photo.init(withDict: ["title": MY BABY SONYA, "owner": 157013477@N03, "secret": 3be2e39f02, "ispublic": 1, "isfamily": 0, "isfriend": 0, "height_s": 124, "server": 65535, "id": 47860093082, "url_s": https://live.staticflickr.com/65535/47860093082_3be2e39f02_m.jpg, "farm": 66, "width_s": 240])
+2019-05-24 15:47:38.552: Photo.init(withDict: ["title": Baby_blue, "owner": 158026223@N07, "secret": 620c045a66, "ispublic": 1, "isfamily": 0, "isfriend": 0, "height_s": 180, "server": 65535, "id": 46995936955, "url_s": https://live.staticflickr.com/65535/46995936955_620c045a66_m.jpg, "farm": 66, "width_s": 240])
+2019-05-24 15:47:38.553: Photo.init(withDict: ["title": Mama and her babies, "owner": 38483315@N08, "secret": 3899dcd8ac, "ispublic": 1, "isfamily": 0, "isfriend": 0, "height_s": 166, "server": 65535, "id": 47912016211, "url_s": https://live.staticflickr.com/65535/47912016211_3899dcd8ac_m.jpg, "farm": 66, "width_s": 240])
+2019-05-24 15:47:38.554: Photo.init(withDict: ["title": Socks optional, "owner": 83727369@N04, "secret": ffeb329ac8, "ispublic": 1, "isfamily": 0, "isfriend": 0, "height_s": 192, "server": 65535, "id": 40945360963, "url_s": https://live.staticflickr.com/65535/40945360963_ffeb329ac8_m.jpg, "farm": 66, "width_s": 240])
+2019-05-24 15:47:38.555: Photo.init(withDict: ["title": How to Wear Baby with a Homemade T-Shirt Carrier, "owner": 161742866@N06, "secret": 2fff659773, "ispublic": 1, "isfamily": 0, "isfriend": 0, "height_s": 148, "server": 65535, "id": 47122610694, "url_s": https://live.staticflickr.com/65535/47122610694_2fff659773_m.jpg, "farm": 66, "width_s": 240])
+2019-05-24 15:47:38.556: Photo.init(withDict: ["title": How to Wear Baby with a Homemade T-Shirt Carrier, "owner": 161742866@N06, "secret": acd1bfb590, "ispublic": 1, "isfamily": 0, "isfriend": 0, "height_s": 148, "server": 65535, "id": 47859972212, "url_s": https://live.staticflickr.com/65535/47859972212_acd1bfb590_m.jpg, "farm": 66, "width_s": 240])
+2019-05-24 15:47:38.557: Photo.init(withDict: ["title": 2019--22 May--The little birdies above our front porch in Martha's Vineyard; University Place, Washington, "owner": 91873856@N00, "secret": 972228a44d, "ispublic": 1, "isfamily": 0, "isfriend": 0, "height_s": 160, "server": 65535, "id": 46995846545, "url_s": https://live.staticflickr.com/65535/46995846545_972228a44d_m.jpg, "farm": 66, "width_s": 240])
+2019-05-24 15:47:38.558: Photo.init(withDict: ["title": Baby...im not made of stones..., "owner": 138366083@N04, "secret": d0e264a21e, "ispublic": 1, "isfamily": 0, "isfriend": 0, "height_s": 127, "server": 65535, "id": 47859934092, "url_s": https://live.staticflickr.com/65535/47859934092_d0e264a21e_m.jpg, "farm": 66, "width_s": 240])
+2019-05-24 15:47:38.559: Photo.init(withDict: ["title": Gosling, "owner": 56595500@N03, "secret": f0bd5910fd, "ispublic": 1, "isfamily": 0, "isfriend": 0, "height_s": 160, "server": 65535, "id": 40945274543, "url_s": https://live.staticflickr.com/65535/40945274543_f0bd5910fd_m.jpg, "farm": 66, "width_s": 240])
+2019-05-24 15:47:38.560: Photo.init(withDict: ["title": Asian Elephant (Elephas maximus), "owner": 94209416@N06, "secret": 840ee8ec07, "ispublic": 1, "isfamily": 0, "isfriend": 0, "height_s": 160, "server": 65535, "id": 47871554151, "url_s": https://live.staticflickr.com/65535/47871554151_840ee8ec07_m.jpg, "farm": 66, "width_s": 240])
+2019-05-24 15:47:38.561: Photo.init(withDict: ["title": Western Chimpanzee, "owner": 94209416@N06, "secret": 59d86ea6b8, "ispublic": 1, "isfamily": 0, "isfriend": 0, "height_s": 168, "server": 65535, "id": 33804145888, "url_s": https://live.staticflickr.com/65535/33804145888_59d86ea6b8_m.jpg, "farm": 66, "width_s": 240])
+2019-05-24 15:47:38.562: Photo.init(withDict: ["title": Rothschild's Giraffe Calf (Giraffa camelopardalis rothschildi), "owner": 94209416@N06, "secret": aa1f0ce5da, "ispublic": 1, "isfamily": 0, "isfriend": 0, "height_s": 240, "server": 7866, "id": 33595951918, "url_s": https://live.staticflickr.com/7866/33595951918_aa1f0ce5da_m.jpg, "farm": 8, "width_s": 160])
+2019-05-24 15:47:38.563: Photo.init(withDict: ["title": Baby Quetzal., "owner": 63368097@N05, "secret": 65998409b2, "ispublic": 1, "isfamily": 0, "isfriend": 0, "height_s": 240, "server": 65535, "id": 47859882922, "url_s": https://live.staticflickr.com/65535/47859882922_65998409b2_m.jpg, "farm": 66, "width_s": 192])
+2019-05-24 15:47:38.563: Photo.init(withDict: ["title": Baby Walking Toy Toddlers Body Balance Training Walker With Flashlight and Sound, "owner": 148935449@N04, "secret": a30d871026, "ispublic": 1, "isfamily": 0, "isfriend": 0, "height_s": 218, "server": 65535, "id": 40945246843, "url_s": https://live.staticflickr.com/65535/40945246843_a30d871026_m.jpg, "farm": 66, "width_s": 240])
+2019-05-24 15:47:38.564: Photo.init(withDict: ["title": Barbary Macaque & baby, "owner": 58647221@N02, "secret": d5ecbdc9f2, "ispublic": 1, "isfamily": 0, "isfriend": 0, "height_s": 240, "server": 65535, "id": 40945245823, "url_s": https://live.staticflickr.com/65535/40945245823_d5ecbdc9f2_m.jpg, "farm": 66, "width_s": 180])
+2019-05-24 15:47:38.565: Photo.init(withDict: ["title": Liz and Roo Premium Baby Bedding Minky Blanket, Crib Sheet, and Skirt Elephant, "owner": 148935449@N04, "secret": 5cf841f4c3, "ispublic": 1, "isfamily": 0, "isfriend": 0, "height_s": 228, "server": 65535, "id": 47122489214, "url_s": https://live.staticflickr.com/65535/47122489214_5cf841f4c3_m.jpg, "farm": 66, "width_s": 240])
+2019-05-24 15:47:38.567: Photo.init(withDict: ["title": Ducklings, "owner": 141599202@N04, "secret": be6ab8eb6e, "ispublic": 1, "isfamily": 0, "isfriend": 0, "height_s": 192, "server": 65535, "id": 40945214703, "url_s": https://live.staticflickr.com/65535/40945214703_be6ab8eb6e_m.jpg, "farm": 66, "width_s": 240])
+2019-05-24 15:47:38.567: Photo.init(withDict: ["title": Ducklings, "owner": 141599202@N04, "secret": b67fb8b9bd, "ispublic": 1, "isfamily": 0, "isfriend": 0, "height_s": 240, "server": 65535, "id": 47859826672, "url_s": https://live.staticflickr.com/65535/47859826672_b67fb8b9bd_m.jpg, "farm": 66, "width_s": 192])
+2019-05-24 15:47:38.568: Photo.init(withDict: ["title": Ducklings, "owner": 141599202@N04, "secret": eb5f410874, "ispublic": 1, "isfamily": 0, "isfriend": 0, "height_s": 240, "server": 65535, "id": 40945214673, "url_s": https://live.staticflickr.com/65535/40945214673_eb5f410874_m.jpg, "farm": 66, "width_s": 192])
+2019-05-24 15:47:38.569: Photo.init(withDict: ["title": Ducklings, "owner": 141599202@N04, "secret": 32bfce5331, "ispublic": 1, "isfamily": 0, "isfriend": 0, "height_s": 192, "server": 65535, "id": 47911812461, "url_s": https://live.staticflickr.com/65535/47911812461_32bfce5331_m.jpg, "farm": 66, "width_s": 240])
+2019-05-24 15:47:38.570: Photo.init(withDict: ["title": Ducklings, "owner": 141599202@N04, "secret": 2a329aa93d, "ispublic": 1, "isfamily": 0, "isfriend": 0, "height_s": 192, "server": 65535, "id": 40945214363, "url_s": https://live.staticflickr.com/65535/40945214363_2a329aa93d_m.jpg, "farm": 66, "width_s": 240])
+2019-05-24 15:47:38.571: Photo.init(withDict: ["title": Ducklings, "owner": 141599202@N04, "secret": e5930d7afe, "ispublic": 1, "isfamily": 0, "isfriend": 0, "height_s": 192, "server": 65535, "id": 40945214273, "url_s": https://live.staticflickr.com/65535/40945214273_e5930d7afe_m.jpg, "farm": 66, "width_s": 240])
+2019-05-24 15:47:38.572: Photo.init(withDict: ["title": Ducklings, "owner": 141599202@N04, "secret": 8162a924d8, "ispublic": 1, "isfamily": 0, "isfriend": 0, "height_s": 192, "server": 65535, "id": 46995857105, "url_s": https://live.staticflickr.com/65535/46995857105_8162a924d8_m.jpg, "farm": 66, "width_s": 240])
+2019-05-24 15:47:38.573: Photo.init(withDict: ["title": Ducklings, "owner": 141599202@N04, "secret": 1bbfa4ec4f, "ispublic": 1, "isfamily": 0, "isfriend": 0, "height_s": 192, "server": 65535, "id": 47859826302, "url_s": https://live.staticflickr.com/65535/47859826302_1bbfa4ec4f_m.jpg, "farm": 66, "width_s": 240])
+2019-05-24 15:47:38.574: Photo.init(withDict: ["title": Ducklings, "owner": 141599202@N04, "secret": b8a4111ac5, "ispublic": 1, "isfamily": 0, "isfriend": 0, "height_s": 192, "server": 65535, "id": 46995857075, "url_s": https://live.staticflickr.com/65535/46995857075_b8a4111ac5_m.jpg, "farm": 66, "width_s": 240])
+2019-05-24 15:47:38.574: Photo.init(withDict: ["title": Ducklings, "owner": 141599202@N04, "secret": 4e21bcfea6, "ispublic": 1, "isfamily": 0, "isfriend": 0, "height_s": 192, "server": 65535, "id": 47911812241, "url_s": https://live.staticflickr.com/65535/47911812241_4e21bcfea6_m.jpg, "farm": 66, "width_s": 240])
+2019-05-24 15:47:38.575: Photo.init(withDict: ["title": Ducklings, "owner": 141599202@N04, "secret": 13a218df81, "ispublic": 1, "isfamily": 0, "isfriend": 0, "height_s": 240, "server": 65535, "id": 47859826112, "url_s": https://live.staticflickr.com/65535/47859826112_13a218df81_m.jpg, "farm": 66, "width_s": 192])
+2019-05-24 15:47:38.576: Photo.init(withDict: ["title": Ducklings, "owner": 141599202@N04, "secret": 1943e2f25d, "ispublic": 1, "isfamily": 0, "isfriend": 0, "height_s": 192, "server": 65535, "id": 47122473364, "url_s": https://live.staticflickr.com/65535/47122473364_1943e2f25d_m.jpg, "farm": 66, "width_s": 240])
+2019-05-24 15:47:38.577: Photo.init(withDict: ["title": Ducklings, "owner": 141599202@N04, "secret": 29aea626a5, "ispublic": 1, "isfamily": 0, "isfriend": 0, "height_s": 192, "server": 65535, "id": 40945214033, "url_s": https://live.staticflickr.com/65535/40945214033_29aea626a5_m.jpg, "farm": 66, "width_s": 240])
+2019-05-24 15:47:38.578: Photo.init(withDict: ["title": Ducklings, "owner": 141599202@N04, "secret": b2524a1278, "ispublic": 1, "isfamily": 0, "isfriend": 0, "height_s": 192, "server": 65535, "id": 47859826052, "url_s": https://live.staticflickr.com/65535/47859826052_b2524a1278_m.jpg, "farm": 66, "width_s": 240])
+2019-05-24 15:47:38.579: Photo.init(withDict: ["title": Shared girls closet / toddler and baby, "owner": 148329682@N03, "secret": de735433e5, "ispublic": 1, "isfamily": 0, "isfriend": 0, "height_s": 240, "server": 65535, "id": 47911805181, "url_s": https://live.staticflickr.com/65535/47911805181_de735433e5_m.jpg, "farm": 66, "width_s": 135])
+2019-05-24 15:47:38.580: Photo.init(withDict: ["title": TRU~Unicorn Tank, "owner": 170153194@N05, "secret": 34c118472d, "ispublic": 1, "isfamily": 0, "isfriend": 0, "height_s": 240, "server": 65535, "id": 46995840885, "url_s": https://live.staticflickr.com/65535/46995840885_34c118472d_m.jpg, "farm": 66, "width_s": 187])
+2019-05-24 15:47:38.581: Photo.init(withDict: ["title": Cambodia - Phnom Penh - Royal Palace - Sitting Buddha - 37g, "owner": 98403995@N08, "secret": 31e7f29d28, "ispublic": 1, "isfamily": 0, "isfriend": 0, "height_s": 160, "server": 65535, "id": 46995830765, "url_s": https://live.staticflickr.com/65535/46995830765_31e7f29d28_m.jpg, "farm": 66, "width_s": 240])
+2019-05-24 15:47:38.582: Photo.init(withDict: ["title": Dinosaur Wooden Baby Hospital Door Hanger, "owner": 163639991@N04, "secret": 9ebb3247c3, "ispublic": 1, "isfamily": 0, "isfriend": 0, "height_s": 240, "server": 65535, "id": 40945177743, "url_s": https://live.staticflickr.com/65535/40945177743_9ebb3247c3_m.jpg, "farm": 66, "width_s": 240])
+2019-05-24 15:47:38.583: Photo.init(withDict: ["title": Goslings, "owner": 142907647@N02, "secret": 4184283aa9, "ispublic": 1, "isfamily": 0, "isfriend": 0, "height_s": 180, "server": 65535, "id": 47122409614, "url_s": https://live.staticflickr.com/65535/47122409614_4184283aa9_m.jpg, "farm": 66, "width_s": 240])
+2019-05-24 15:47:38.584: Photo.init(withDict: ["title": Goslings, "owner": 142907647@N02, "secret": 4a4abe9622, "ispublic": 1, "isfamily": 0, "isfriend": 0, "height_s": 180, "server": 65535, "id": 47859764192, "url_s": https://live.staticflickr.com/65535/47859764192_4a4abe9622_m.jpg, "farm": 66, "width_s": 240])
+2019-05-24 15:47:38.585: Photo.init(withDict: ["title": Cambodia - Phnom Penh - Royal Palace - Sitting Buddha - 30g, "owner": 98403995@N08, "secret": ab3c9dc58b, "ispublic": 1, "isfamily": 0, "isfriend": 0, "height_s": 135, "server": 65535, "id": 46995785235, "url_s": https://live.staticflickr.com/65535/46995785235_ab3c9dc58b_m.jpg, "farm": 66, "width_s": 240])
+2019-05-24 15:47:38.586: Photo.init(withDict: ["title": Dogwood Baby Blue, "owner": 160829031@N05, "secret": 6010cf8560, "ispublic": 1, "isfamily": 0, "isfriend": 0, "height_s": 180, "server": 65535, "id": 40945134413, "url_s": https://live.staticflickr.com/65535/40945134413_6010cf8560_m.jpg, "farm": 66, "width_s": 240])
+2019-05-24 15:47:38.587: Photo.init(withDict: ["title": Bassinets and Cradles 20423: Sunggle Me Organic The Original Co-Sleeping Baby Be…, "owner": 157823186@N08, "secret": 7fde1eaf63, "ispublic": 1, "isfamily": 0, "isfriend": 0, "height_s": 240, "server": 65535, "id": 40945119193, "url_s": https://live.staticflickr.com/65535/40945119193_7fde1eaf63_m.jpg, "farm": 66, "width_s": 60])
+2019-05-24 15:47:38.588: Photo.init(withDict: ["title": Hozier, "owner": 58686168@N06, "secret": ce47201e27, "ispublic": 1, "isfamily": 0, "isfriend": 0, "height_s": 212, "server": 65535, "id": 47911688941, "url_s": https://live.staticflickr.com/65535/47911688941_ce47201e27_m.jpg, "farm": 66, "width_s": 240])
+2019-05-24 15:47:38.589: Photo.init(withDict: ["title": Hozier-2, "owner": 58686168@N06, "secret": 17d90eeec0, "ispublic": 1, "isfamily": 0, "isfriend": 0, "height_s": 159, "server": 65535, "id": 47122362044, "url_s": https://live.staticflickr.com/65535/47122362044_17d90eeec0_m.jpg, "farm": 66, "width_s": 240])
+2019-05-24 15:47:38.590: Photo.init(withDict: ["title": Hozier-3, "owner": 58686168@N06, "secret": a22f4b70d9, "ispublic": 1, "isfamily": 0, "isfriend": 0, "height_s": 180, "server": 65535, "id": 47911688531, "url_s": https://live.staticflickr.com/65535/47911688531_a22f4b70d9_m.jpg, "farm": 66, "width_s": 240])
+2019-05-24 15:47:38.591: Photo.init(withDict: ["title": Hozier-4, "owner": 58686168@N06, "secret": efa54ea8e1, "ispublic": 1, "isfamily": 0, "isfriend": 0, "height_s": 160, "server": 65535, "id": 47122361494, "url_s": https://live.staticflickr.com/65535/47122361494_efa54ea8e1_m.jpg, "farm": 66, "width_s": 240])
+2019-05-24 15:47:38.592: Photo.init(withDict: ["title": Hozier-6, "owner": 58686168@N06, "secret": ddfd0cb3c4, "ispublic": 1, "isfamily": 0, "isfriend": 0, "height_s": 160, "server": 65535, "id": 47911687771, "url_s": https://live.staticflickr.com/65535/47911687771_ddfd0cb3c4_m.jpg, "farm": 66, "width_s": 240])
+2019-05-24 15:47:38.593: Photo.init(withDict: ["title": Hozier-7, "owner": 58686168@N06, "secret": f360f644b7, "ispublic": 1, "isfamily": 0, "isfriend": 0, "height_s": 160, "server": 65535, "id": 47911687321, "url_s": https://live.staticflickr.com/65535/47911687321_f360f644b7_m.jpg, "farm": 66, "width_s": 240])
+2019-05-24 15:47:38.594: Photo.init(withDict: ["title": Hozier-8, "owner": 58686168@N06, "secret": 8a45425c4b, "ispublic": 1, "isfamily": 0, "isfriend": 0, "height_s": 160, "server": 65535, "id": 47911687031, "url_s": https://live.staticflickr.com/65535/47911687031_8a45425c4b_m.jpg, "farm": 66, "width_s": 240])
+2019-05-24 15:47:38.595: Photo.init(withDict: ["title": Hozier-9, "owner": 58686168@N06, "secret": a58cf4e120, "ispublic": 1, "isfamily": 0, "isfriend": 0, "height_s": 160, "server": 65535, "id": 47911686781, "url_s": https://live.staticflickr.com/65535/47911686781_a58cf4e120_m.jpg, "farm": 66, "width_s": 240])
+2019-05-24 15:47:38.596: Photo.init(withDict: ["title": Hozier-10, "owner": 58686168@N06, "secret": 63f5830587, "ispublic": 1, "isfamily": 0, "isfriend": 0, "height_s": 160, "server": 65535, "id": 47911686501, "url_s": https://live.staticflickr.com/65535/47911686501_63f5830587_m.jpg, "farm": 66, "width_s": 240])
+2019-05-24 15:47:38.596: Photo.init(withDict: ["title": Hozier-11, "owner": 58686168@N06, "secret": abe0a1980e, "ispublic": 1, "isfamily": 0, "isfriend": 0, "height_s": 160, "server": 65535, "id": 47122360214, "url_s": https://live.staticflickr.com/65535/47122360214_abe0a1980e_m.jpg, "farm": 66, "width_s": 240])
+2019-05-24 15:47:38.597: Photo.init(withDict: ["title": Hozier-12, "owner": 58686168@N06, "secret": 76ecc9aba4, "ispublic": 1, "isfamily": 0, "isfriend": 0, "height_s": 160, "server": 65535, "id": 47911686091, "url_s": https://live.staticflickr.com/65535/47911686091_76ecc9aba4_m.jpg, "farm": 66, "width_s": 240])
+2019-05-24 15:47:38.598: Photo.init(withDict: ["title": Hozier-13, "owner": 58686168@N06, "secret": e2db30aeb1, "ispublic": 1, "isfamily": 0, "isfriend": 0, "height_s": 160, "server": 65535, "id": 47122359864, "url_s": https://live.staticflickr.com/65535/47122359864_e2db30aeb1_m.jpg, "farm": 66, "width_s": 240])
+2019-05-24 15:47:38.599: Photo.init(withDict: ["title": Hozier-14, "owner": 58686168@N06, "secret": 328409e0c0, "ispublic": 1, "isfamily": 0, "isfriend": 0, "height_s": 160, "server": 65535, "id": 47122359674, "url_s": https://live.staticflickr.com/65535/47122359674_328409e0c0_m.jpg, "farm": 66, "width_s": 240])
+2019-05-24 15:47:38.600: Photo.init(withDict: ["title": Hozier-15, "owner": 58686168@N06, "secret": 96da79702b, "ispublic": 1, "isfamily": 0, "isfriend": 0, "height_s": 160, "server": 65535, "id": 47911685181, "url_s": https://live.staticflickr.com/65535/47911685181_96da79702b_m.jpg, "farm": 66, "width_s": 240])
+2019-05-24 15:47:38.601: Photo.init(withDict: ["title": Hozier-16, "owner": 58686168@N06, "secret": bafc9af05d, "ispublic": 1, "isfamily": 0, "isfriend": 0, "height_s": 160, "server": 65535, "id": 47122359424, "url_s": https://live.staticflickr.com/65535/47122359424_bafc9af05d_m.jpg, "farm": 66, "width_s": 240])
+2019-05-24 15:47:38.602: Photo.init(withDict: ["title": Hozier-5, "owner": 58686168@N06, "secret": 5966572015, "ispublic": 1, "isfamily": 0, "isfriend": 0, "height_s": 160, "server": 65535, "id": 47911684671, "url_s": https://live.staticflickr.com/65535/47911684671_5966572015_m.jpg, "farm": 66, "width_s": 240])
+2019-05-24 15:47:38.603: Photo.init(withDict: ["title": Hozier-17, "owner": 58686168@N06, "secret": d726973a6a, "ispublic": 1, "isfamily": 0, "isfriend": 0, "height_s": 160, "server": 65535, "id": 47122359204, "url_s": https://live.staticflickr.com/65535/47122359204_d726973a6a_m.jpg, "farm": 66, "width_s": 240])
+2019-05-24 15:47:38.604: Photo.init(withDict: ["title": Munchkin In Sight Baby Mirror In Car Child View Sight Monitor, "owner": 170164384@N04, "secret": 04bbb76c93, "ispublic": 1, "isfamily": 0, "isfriend": 0, "height_s": 184, "server": 65535, "id": 47911664221, "url_s": https://live.staticflickr.com/65535/47911664221_04bbb76c93_m.jpg, "farm": 66, "width_s": 240])
+2019-05-24 15:47:38.605: Photo.init(withDict: ["title": New World Order, "owner": 153865163@N05, "secret": 27f1787a15, "ispublic": 1, "isfamily": 0, "isfriend": 0, "height_s": 127, "server": 65535, "id": 46995706905, "url_s": https://live.staticflickr.com/65535/46995706905_27f1787a15_m.jpg, "farm": 66, "width_s": 240])
+2019-05-24 15:47:38.606: Photo.init(withDict: ["title": Disney Baby Bedding Mickey Mouse 3-Piece Portable Crib Bedding Set, "owner": 148935449@N04, "secret": 2aa40633cb, "ispublic": 1, "isfamily": 0, "isfriend": 0, "height_s": 240, "server": 65535, "id": 47911654891, "url_s": https://live.staticflickr.com/65535/47911654891_2aa40633cb_m.jpg, "farm": 66, "width_s": 240])
+2019-05-24 15:47:38.607: Photo.init(withDict: ["title": No Peeking, "owner": 156033565@N06, "secret": 9f48ab7c87, "ispublic": 1, "isfamily": 0, "isfriend": 0, "height_s": 240, "server": 65535, "id": 47122296724, "url_s": https://live.staticflickr.com/65535/47122296724_9f48ab7c87_m.jpg, "farm": 66, "width_s": 204])
+2019-05-24 15:47:38.608: Photo.init(withDict: ["title": Nesting, "owner": 148093908@N08, "secret": ca9f62400d, "ispublic": 1, "isfamily": 0, "isfriend": 0, "height_s": 160, "server": 65535, "id": 47911628351, "url_s": https://live.staticflickr.com/65535/47911628351_ca9f62400d_m.jpg, "farm": 66, "width_s": 240])
+2019-05-24 15:47:38.608: Photo.init(withDict: ["title": Sweet Dreams, "owner": 72096526@N04, "secret": db8636f9c0, "ispublic": 1, "isfamily": 0, "isfriend": 0, "height_s": 240, "server": 65535, "id": 47911548471, "url_s": https://live.staticflickr.com/65535/47911548471_db8636f9c0_m.jpg, "farm": 66, "width_s": 240])
+2019-05-24 15:47:38.609: Photo.init(withDict: ["title": Candy House Baby Sign, Cairo Airport, al-Qāhirah, CG, EGY, "owner": 59081381@N03, "secret": 418377d3ce, "ispublic": 1, "isfamily": 0, "isfriend": 0, "height_s": 180, "server": 65535, "id": 46995494945, "url_s": https://live.staticflickr.com/65535/46995494945_418377d3ce_m.jpg, "farm": 66, "width_s": 240])
+2019-05-24 15:47:38.610: Photo.init(withDict: ["title": Transform Hemnes bed of IKEA into a baby bed… cod.: 500.803.15 is creative ins…, "owner": 169924384@N05, "secret": c3a70e28e3, "ispublic": 1, "isfamily": 0, "isfriend": 0, "height_s": 240, "server": 65535, "id": 47859620292, "url_s": https://live.staticflickr.com/65535/47859620292_c3a70e28e3_m.jpg, "farm": 66, "width_s": 195])
+2019-05-24 15:47:38.611: Photo.init(withDict: ["title": European Luxury Fairy Tale Style Pumpkin Shape Crib Kids Dream Baby Cot Bed Germany Beech, "owner": 169964888@N03, "secret": 46f1b446ff, "ispublic": 1, "isfamily": 0, "isfriend": 0, "height_s": 240, "server": 65535, "id": 47911598441, "url_s": https://live.staticflickr.com/65535/47911598441_46f1b446ff_m.jpg, "farm": 66, "width_s": 180])
+2019-05-24 15:47:38.612: Photo.init(withDict: ["title": Melissa and Melody's Baby Bath Time 2, "owner": 145526060@N05, "secret": be67eafb74, "ispublic": 1, "isfamily": 0, "isfriend": 0, "height_s": 112, "server": 65535, "id": 47122238674, "url_s": https://live.staticflickr.com/65535/47122238674_be67eafb74_m.jpg, "farm": 66, "width_s": 240])
+2019-05-24 15:47:38.613: Photo.init(withDict: ["title": Melissa and Melody's Baby Bath Time, "owner": 145526060@N05, "secret": 84c2276a1d, "ispublic": 1, "isfamily": 0, "isfriend": 0, "height_s": 205, "server": 65535, "id": 46995625495, "url_s": https://live.staticflickr.com/65535/46995625495_84c2276a1d_m.jpg, "farm": 66, "width_s": 240])
+2019-05-24 15:47:38.614: Photo.init(withDict: ["title": Baby Jogger City Select Twin Double troller Quartz with Second Seat & Bassinet, "owner": 157823186@N08, "secret": bd73b1b2f0, "ispublic": 1, "isfamily": 0, "isfriend": 0, "height_s": 240, "server": 65535, "id": 40944965173, "url_s": https://live.staticflickr.com/65535/40944965173_bd73b1b2f0_m.jpg, "farm": 66, "width_s": 91])
+2019-05-24 15:47:38.615: Photo.init(withDict: ["title": quarterly baby shower static slide, "owner": 68906155@N06, "secret": 76f5e84abd, "ispublic": 1, "isfamily": 0, "isfriend": 0, "height_s": 128, "server": 65535, "id": 47122204804, "url_s": https://live.staticflickr.com/65535/47122204804_76f5e84abd_m.jpg, "farm": 66, "width_s": 240])
+2019-05-24 15:47:38.616: Photo.init(withDict: ["title": ☆ Post Nr. 243 Sweet Tots – Mommys Girl and I Love You Mom ☆, "owner": 156701458@N02, "secret": 73a59f07fa, "ispublic": 1, "isfamily": 0, "isfriend": 0, "height_s": 160, "server": 65535, "id": 46995566195, "url_s": https://live.staticflickr.com/65535/46995566195_73a59f07fa_m.jpg, "farm": 66, "width_s": 240])
+2019-05-24 15:47:38.617: Photo.init(withDict: ["title": Cambodia - Phnom Penh - Royal Palace - 31ee, "owner": 98403995@N08, "secret": 4d3289371c, "ispublic": 1, "isfamily": 0, "isfriend": 0, "height_s": 135, "server": 65535, "id": 47859484362, "url_s": https://live.staticflickr.com/65535/47859484362_4d3289371c_m.jpg, "farm": 66, "width_s": 240])
+2019-05-24 15:47:38.618: Photo.init(withDict: ["title": 10 Piece Set NOJO Baby Infant Crib Little Bedding Ocean Dreams Octopus Nursery, "owner": 157823186@N08, "secret": 0781ab928a, "ispublic": 1, "isfamily": 0, "isfriend": 0, "height_s": 133, "server": 65535, "id": 40944835063, "url_s": https://live.staticflickr.com/65535/40944835063_0781ab928a_m.jpg, "farm": 66, "width_s": 140])
+2019-05-24 15:47:38.619: Photo.init(withDict: ["title": Babyfoot XL, "owner": 64320477@N05, "secret": b2bdbb3a35, "ispublic": 1, "isfamily": 0, "isfriend": 0, "height_s": 160, "server": 65535, "id": 46995469255, "url_s": https://live.staticflickr.com/65535/46995469255_b2bdbb3a35_m.jpg, "farm": 66, "width_s": 240])
+2019-05-24 15:47:38.620: Photo.init(withDict: ["title": Sick baby, "owner": 82216392@N00, "secret": fc52636a86, "ispublic": 1, "isfamily": 0, "isfriend": 0, "height_s": 240, "server": 65535, "id": 47911412781, "url_s": https://live.staticflickr.com/65535/47911412781_fc52636a86_m.jpg, "farm": 66, "width_s": 185])
+2019-05-24 15:47:38.621: Photo.init(withDict: ["title": closer babies, "owner": 98292634@N00, "secret": f00992031c, "ispublic": 1, "isfamily": 0, "isfriend": 0, "height_s": 176, "server": 65535, "id": 40944811523, "url_s": https://live.staticflickr.com/65535/40944811523_f00992031c_m.jpg, "farm": 66, "width_s": 240])
+2019-05-24 15:47:38.621: Photo.init(withDict: ["title": How to Wear Baby with a Homemade T-Shirt Carrier, "owner": 161742866@N06, "secret": b1d41812c4, "ispublic": 1, "isfamily": 0, "isfriend": 0, "height_s": 148, "server": 65535, "id": 47911380641, "url_s": https://live.staticflickr.com/65535/47911380641_b1d41812c4_m.jpg, "farm": 66, "width_s": 240])
+2019-05-24 15:47:38.622: Photo.init(withDict: ["title": Making Waves, "owner": 98911464@N00, "secret": eab5753b53, "ispublic": 1, "isfamily": 0, "isfriend": 0, "height_s": 160, "server": 65535, "id": 46995422235, "url_s": https://live.staticflickr.com/65535/46995422235_eab5753b53_m.jpg, "farm": 66, "width_s": 240])
+2019-05-24 15:47:38.623: Photo.init(withDict: ["title": PeekaBoo, "owner": 98911464@N00, "secret": a2c9dd72b0, "ispublic": 1, "isfamily": 0, "isfriend": 0, "height_s": 160, "server": 65535, "id": 47911359061, "url_s": https://live.staticflickr.com/65535/47911359061_a2c9dd72b0_m.jpg, "farm": 66, "width_s": 240])
+2019-05-24 15:47:38.624: Photo.init(withDict: ["title": Spring at the Marsh, "owner": 98911464@N00, "secret": 89f9aec231, "ispublic": 1, "isfamily": 0, "isfriend": 0, "height_s": 160, "server": 65535, "id": 46995421695, "url_s": https://live.staticflickr.com/65535/46995421695_89f9aec231_m.jpg, "farm": 66, "width_s": 240])
+2019-05-24 15:47:38.625: Photo.init(withDict: ["title": Super baby, "owner": 82216392@N00, "secret": e19b479fce, "ispublic": 1, "isfamily": 0, "isfriend": 0, "height_s": 240, "server": 65535, "id": 40944695593, "url_s": https://live.staticflickr.com/65535/40944695593_e19b479fce_m.jpg, "farm": 66, "width_s": 160])
+2019-05-24 15:47:38.626: Photo.init(withDict: ["title": Cambodia - Phnom Penh - Royal Palace - Buddha Image - 34g, "owner": 98403995@N08, "secret": d20f3f2e99, "ispublic": 1, "isfamily": 0, "isfriend": 0, "height_s": 135, "server": 65535, "id": 40944736383, "url_s": https://live.staticflickr.com/65535/40944736383_d20f3f2e99_m.jpg, "farm": 66, "width_s": 240])
+2019-05-24 15:47:38.627: Photo.init(withDict: ["title": Baby Hippo, "owner": 166412356@N06, "secret": 4baae38b4b, "ispublic": 1, "isfamily": 0, "isfriend": 0, "height_s": 160, "server": 65535, "id": 47911316291, "url_s": https://live.staticflickr.com/65535/47911316291_4baae38b4b_m.jpg, "farm": 66, "width_s": 240])
+2019-05-24 15:47:38.627: Photo.init(withDict: ["title": SRX00478 Hen and Poults, "owner": 98292634@N00, "secret": f1ef0e0c82, "ispublic": 1, "isfamily": 0, "isfriend": 0, "height_s": 168, "server": 65535, "id": 47859318432, "url_s": https://live.staticflickr.com/65535/47859318432_f1ef0e0c82_m.jpg, "farm": 66, "width_s": 240])
+2019-05-24 15:47:38.628: Photo.init(withDict: ["title": BABY DRIVER NOEL LINDO QUE FEZ, "owner": 145554195@N02, "secret": 0274c16985, "ispublic": 1, "isfamily": 0, "isfriend": 0, "height_s": 240, "server": 65535, "id": 47121983814, "url_s": https://live.staticflickr.com/65535/47121983814_0274c16985_m.jpg, "farm": 66, "width_s": 165])
+2019-05-24 15:47:38.629: Photo.init(withDict: ["title": baby driver e nois, "owner": 145554195@N02, "secret": d8f5681779, "ispublic": 1, "isfamily": 0, "isfriend": 0, "height_s": 240, "server": 65535, "id": 47121955484, "url_s": https://live.staticflickr.com/65535/47121955484_d8f5681779_m.jpg, "farm": 66, "width_s": 165])
+2019-05-24 15:47:38.630: Photo.init(withDict: ["title": Dreamcatcher I, "owner": 53625746@N02, "secret": 476c85dc1f, "ispublic": 1, "isfamily": 0, "isfriend": 0, "height_s": 160, "server": 65535, "id": 47121939414, "url_s": https://live.staticflickr.com/65535/47121939414_476c85dc1f_m.jpg, "farm": 66, "width_s": 240])
+2019-05-24 15:47:38.638: Photo.init(withDict: ["title": Dreamcatcher II, "owner": 53625746@N02, "secret": a4e88dbca0, "ispublic": 1, "isfamily": 0, "isfriend": 0, "height_s": 160, "server": 65535, "id": 40944670073, "url_s": https://live.staticflickr.com/65535/40944670073_a4e88dbca0_m.jpg, "farm": 66, "width_s": 240])
+2019-05-24 15:47:38.639: Photo.init(withDict: ["title": Merino Wool Waldorf style fairy/angel, "owner": 171459625@N05, "secret": 4516e0e715, "ispublic": 1, "isfamily": 0, "isfriend": 0, "height_s": 240, "server": 65535, "id": 40943089103, "url_s": https://live.staticflickr.com/65535/40943089103_4516e0e715_m.jpg, "farm": 66, "width_s": 180])
+2019-05-24 15:47:38.640: Photo.init(withDict: ["title": Merino Wool Waldorf style fairy/angel, "owner": 171459625@N05, "secret": 7a750c077e, "ispublic": 1, "isfamily": 0, "isfriend": 0, "height_s": 240, "server": 65535, "id": 47120366994, "url_s": https://live.staticflickr.com/65535/47120366994_7a750c077e_m.jpg, "farm": 66, "width_s": 180])
+2019-05-24 15:47:38.641: Photo.init(withDict: ["title": Merino Wool Waldorf style fairy/angel, "owner": 171459625@N05, "secret": 2c75b72828, "ispublic": 1, "isfamily": 0, "isfriend": 0, "height_s": 240, "server": 65535, "id": 40943088813, "url_s": https://live.staticflickr.com/65535/40943088813_2c75b72828_m.jpg, "farm": 66, "width_s": 180])
+2019-05-24 15:47:38.642: PhotoModel.save()
+2019-05-24 15:47:38.643: Photo.encode(withCoder: <NSKeyedArchiver: 0x610000117850>)
+2019-05-24 15:47:38.643: Photo.encode(withCoder: <NSKeyedArchiver: 0x610000117850>)
+2019-05-24 15:47:38.644: Photo.encode(withCoder: <NSKeyedArchiver: 0x610000117850>)
+2019-05-24 15:47:38.644: Photo.encode(withCoder: <NSKeyedArchiver: 0x610000117850>)
+2019-05-24 15:47:38.644: Photo.encode(withCoder: <NSKeyedArchiver: 0x610000117850>)
+2019-05-24 15:47:38.645: Photo.encode(withCoder: <NSKeyedArchiver: 0x610000117850>)
+2019-05-24 15:47:38.645: Photo.encode(withCoder: <NSKeyedArchiver: 0x610000117850>)
+2019-05-24 15:47:38.646: Photo.encode(withCoder: <NSKeyedArchiver: 0x610000117850>)
+2019-05-24 15:47:38.646: Photo.encode(withCoder: <NSKeyedArchiver: 0x610000117850>)
+2019-05-24 15:47:38.647: Photo.encode(withCoder: <NSKeyedArchiver: 0x610000117850>)
+2019-05-24 15:47:38.647: Photo.encode(withCoder: <NSKeyedArchiver: 0x610000117850>)
+2019-05-24 15:47:38.647: Photo.encode(withCoder: <NSKeyedArchiver: 0x610000117850>)
+2019-05-24 15:47:38.648: Photo.encode(withCoder: <NSKeyedArchiver: 0x610000117850>)
+2019-05-24 15:47:38.648: Photo.encode(withCoder: <NSKeyedArchiver: 0x610000117850>)
+2019-05-24 15:47:38.649: Photo.encode(withCoder: <NSKeyedArchiver: 0x610000117850>)
+2019-05-24 15:47:38.649: Photo.encode(withCoder: <NSKeyedArchiver: 0x610000117850>)
+2019-05-24 15:47:38.649: Photo.encode(withCoder: <NSKeyedArchiver: 0x610000117850>)
+2019-05-24 15:47:38.650: Photo.encode(withCoder: <NSKeyedArchiver: 0x610000117850>)
+2019-05-24 15:47:38.650: Photo.encode(withCoder: <NSKeyedArchiver: 0x610000117850>)
+2019-05-24 15:47:38.651: Photo.encode(withCoder: <NSKeyedArchiver: 0x610000117850>)
+2019-05-24 15:47:38.651: Photo.encode(withCoder: <NSKeyedArchiver: 0x610000117850>)
+2019-05-24 15:47:38.651: Photo.encode(withCoder: <NSKeyedArchiver: 0x610000117850>)
+2019-05-24 15:47:38.652: Photo.encode(withCoder: <NSKeyedArchiver: 0x610000117850>)
+2019-05-24 15:47:38.652: Photo.encode(withCoder: <NSKeyedArchiver: 0x610000117850>)
+2019-05-24 15:47:38.653: Photo.encode(withCoder: <NSKeyedArchiver: 0x610000117850>)
+2019-05-24 15:47:38.653: Photo.encode(withCoder: <NSKeyedArchiver: 0x610000117850>)
+2019-05-24 15:47:38.654: Photo.encode(withCoder: <NSKeyedArchiver: 0x610000117850>)
+2019-05-24 15:47:38.654: Photo.encode(withCoder: <NSKeyedArchiver: 0x610000117850>)
+2019-05-24 15:47:38.654: Photo.encode(withCoder: <NSKeyedArchiver: 0x610000117850>)
+2019-05-24 15:47:38.655: Photo.encode(withCoder: <NSKeyedArchiver: 0x610000117850>)
+2019-05-24 15:47:38.655: Photo.encode(withCoder: <NSKeyedArchiver: 0x610000117850>)
+2019-05-24 15:47:38.656: Photo.encode(withCoder: <NSKeyedArchiver: 0x610000117850>)
+2019-05-24 15:47:38.656: Photo.encode(withCoder: <NSKeyedArchiver: 0x610000117850>)
+2019-05-24 15:47:38.657: Photo.encode(withCoder: <NSKeyedArchiver: 0x610000117850>)
+2019-05-24 15:47:38.657: Photo.encode(withCoder: <NSKeyedArchiver: 0x610000117850>)
+2019-05-24 15:47:38.657: Photo.encode(withCoder: <NSKeyedArchiver: 0x610000117850>)
+2019-05-24 15:47:38.658: Photo.encode(withCoder: <NSKeyedArchiver: 0x610000117850>)
+2019-05-24 15:47:38.658: Photo.encode(withCoder: <NSKeyedArchiver: 0x610000117850>)
+2019-05-24 15:47:38.659: Photo.encode(withCoder: <NSKeyedArchiver: 0x610000117850>)
+2019-05-24 15:47:38.659: Photo.encode(withCoder: <NSKeyedArchiver: 0x610000117850>)
+2019-05-24 15:47:38.659: Photo.encode(withCoder: <NSKeyedArchiver: 0x610000117850>)
+2019-05-24 15:47:38.660: Photo.encode(withCoder: <NSKeyedArchiver: 0x610000117850>)
+2019-05-24 15:47:38.660: Photo.encode(withCoder: <NSKeyedArchiver: 0x610000117850>)
+2019-05-24 15:47:38.661: Photo.encode(withCoder: <NSKeyedArchiver: 0x610000117850>)
+2019-05-24 15:47:38.661: Photo.encode(withCoder: <NSKeyedArchiver: 0x610000117850>)
+2019-05-24 15:47:38.662: Photo.encode(withCoder: <NSKeyedArchiver: 0x610000117850>)
+2019-05-24 15:47:38.662: Photo.encode(withCoder: <NSKeyedArchiver: 0x610000117850>)
+2019-05-24 15:47:38.662: Photo.encode(withCoder: <NSKeyedArchiver: 0x610000117850>)
+2019-05-24 15:47:38.663: Photo.encode(withCoder: <NSKeyedArchiver: 0x610000117850>)
+2019-05-24 15:47:38.663: Photo.encode(withCoder: <NSKeyedArchiver: 0x610000117850>)
+2019-05-24 15:47:38.664: Photo.encode(withCoder: <NSKeyedArchiver: 0x610000117850>)
+2019-05-24 15:47:38.664: Photo.encode(withCoder: <NSKeyedArchiver: 0x610000117850>)
+2019-05-24 15:47:38.664: Photo.encode(withCoder: <NSKeyedArchiver: 0x610000117850>)
+2019-05-24 15:47:38.665: Photo.encode(withCoder: <NSKeyedArchiver: 0x610000117850>)
+2019-05-24 15:47:38.665: Photo.encode(withCoder: <NSKeyedArchiver: 0x610000117850>)
+2019-05-24 15:47:38.666: Photo.encode(withCoder: <NSKeyedArchiver: 0x610000117850>)
+2019-05-24 15:47:38.666: Photo.encode(withCoder: <NSKeyedArchiver: 0x610000117850>)
+2019-05-24 15:47:38.666: Photo.encode(withCoder: <NSKeyedArchiver: 0x610000117850>)
+2019-05-24 15:47:38.667: Photo.encode(withCoder: <NSKeyedArchiver: 0x610000117850>)
+2019-05-24 15:47:38.667: Photo.encode(withCoder: <NSKeyedArchiver: 0x610000117850>)
+2019-05-24 15:47:38.668: Photo.encode(withCoder: <NSKeyedArchiver: 0x610000117850>)
+2019-05-24 15:47:38.668: Photo.encode(withCoder: <NSKeyedArchiver: 0x610000117850>)
+2019-05-24 15:47:38.669: Photo.encode(withCoder: <NSKeyedArchiver: 0x610000117850>)
+2019-05-24 15:47:38.669: Photo.encode(withCoder: <NSKeyedArchiver: 0x610000117850>)
+2019-05-24 15:47:38.669: Photo.encode(withCoder: <NSKeyedArchiver: 0x610000117850>)
+2019-05-24 15:47:38.670: Photo.encode(withCoder: <NSKeyedArchiver: 0x610000117850>)
+2019-05-24 15:47:38.670: Photo.encode(withCoder: <NSKeyedArchiver: 0x610000117850>)
+2019-05-24 15:47:38.671: Photo.encode(withCoder: <NSKeyedArchiver: 0x610000117850>)
+2019-05-24 15:47:38.671: Photo.encode(withCoder: <NSKeyedArchiver: 0x610000117850>)
+2019-05-24 15:47:38.672: Photo.encode(withCoder: <NSKeyedArchiver: 0x610000117850>)
+2019-05-24 15:47:38.672: Photo.encode(withCoder: <NSKeyedArchiver: 0x610000117850>)
+2019-05-24 15:47:38.672: Photo.encode(withCoder: <NSKeyedArchiver: 0x610000117850>)
+2019-05-24 15:47:38.673: Photo.encode(withCoder: <NSKeyedArchiver: 0x610000117850>)
+2019-05-24 15:47:38.673: Photo.encode(withCoder: <NSKeyedArchiver: 0x610000117850>)
+2019-05-24 15:47:38.674: Photo.encode(withCoder: <NSKeyedArchiver: 0x610000117850>)
+2019-05-24 15:47:38.674: Photo.encode(withCoder: <NSKeyedArchiver: 0x610000117850>)
+2019-05-24 15:47:38.674: Photo.encode(withCoder: <NSKeyedArchiver: 0x610000117850>)
+2019-05-24 15:47:38.675: Photo.encode(withCoder: <NSKeyedArchiver: 0x610000117850>)
+2019-05-24 15:47:38.675: Photo.encode(withCoder: <NSKeyedArchiver: 0x610000117850>)
+2019-05-24 15:47:38.676: Photo.encode(withCoder: <NSKeyedArchiver: 0x610000117850>)
+2019-05-24 15:47:38.676: Photo.encode(withCoder: <NSKeyedArchiver: 0x610000117850>)
+2019-05-24 15:47:38.677: Photo.encode(withCoder: <NSKeyedArchiver: 0x610000117850>)
+2019-05-24 15:47:38.677: Photo.encode(withCoder: <NSKeyedArchiver: 0x610000117850>)
+2019-05-24 15:47:38.677: Photo.encode(withCoder: <NSKeyedArchiver: 0x610000117850>)
+2019-05-24 15:47:38.678: Photo.encode(withCoder: <NSKeyedArchiver: 0x610000117850>)
+2019-05-24 15:47:38.678: Photo.encode(withCoder: <NSKeyedArchiver: 0x610000117850>)
+2019-05-24 15:47:38.679: Photo.encode(withCoder: <NSKeyedArchiver: 0x610000117850>)
+2019-05-24 15:47:38.679: Photo.encode(withCoder: <NSKeyedArchiver: 0x610000117850>)
+2019-05-24 15:47:38.679: Photo.encode(withCoder: <NSKeyedArchiver: 0x610000117850>)
+2019-05-24 15:47:38.680: Photo.encode(withCoder: <NSKeyedArchiver: 0x610000117850>)
+2019-05-24 15:47:38.680: Photo.encode(withCoder: <NSKeyedArchiver: 0x610000117850>)
+2019-05-24 15:47:38.681: Photo.encode(withCoder: <NSKeyedArchiver: 0x610000117850>)
+2019-05-24 15:47:38.681: Photo.encode(withCoder: <NSKeyedArchiver: 0x610000117850>)
+2019-05-24 15:47:38.682: Photo.encode(withCoder: <NSKeyedArchiver: 0x610000117850>)
+2019-05-24 15:47:38.682: Photo.encode(withCoder: <NSKeyedArchiver: 0x610000117850>)
+2019-05-24 15:47:38.682: Photo.encode(withCoder: <NSKeyedArchiver: 0x610000117850>)
+2019-05-24 15:47:38.683: Photo.encode(withCoder: <NSKeyedArchiver: 0x610000117850>)
+2019-05-24 15:47:38.683: Photo.encode(withCoder: <NSKeyedArchiver: 0x610000117850>)
+2019-05-24 15:47:38.684: Photo.encode(withCoder: <NSKeyedArchiver: 0x610000117850>)
+2019-05-24 15:47:38.685: Defaults.set(object: [<flickry.Photo: 0x6000002a4080>, <flickry.Photo: 0x6000002a4a40>, <flickry.Photo: 0x6000002a4740>, <flickry.Photo: 0x6000002a4680>, <flickry.Photo: 0x6000002a45c0>, <flickry.Photo: 0x60c0000ba880>, <flickry.Photo: 0x60c0000ba940>, <flickry.Photo: 0x60c0000baa00>, <flickry.Photo: 0x60c0000baac0>, <flickry.Photo: 0x60c0000ba7c0>, <flickry.Photo: 0x60c0000babe0>, <flickry.Photo: 0x60c0000baca0>, <flickry.Photo: 0x60c0000bad60>, <flickry.Photo: 0x60c0000bae20>, <flickry.Photo: 0x60c0000baee0>, <flickry.Photo: 0x60c0000bafa0>, <flickry.Photo: 0x60c0000bb060>, <flickry.Photo: 0x60c0000bb120>, <flickry.Photo: 0x60c0000bb1e0>, <flickry.Photo: 0x60c0000bb2a0>, <flickry.Photo: 0x60c0000bb360>, <flickry.Photo: 0x60c0000bb420>, <flickry.Photo: 0x60c0000bb4e0>, <flickry.Photo: 0x60c0000bb5a0>, <flickry.Photo: 0x60c0000bb660>, <flickry.Photo: 0x60c0000bb720>, <flickry.Photo: 0x60c0000bb7e0>, <flickry.Photo: 0x60c0000bb8a0>, <flickry.Photo: 0x60c0000bb960>, <flickry.Photo: 0x60c0000bba20>, <flickry.Photo: 0x60c0000bbae0>, <flickry.Photo: 0x60c0000bbba0>, <flickry.Photo: 0x60c0000bbc60>, <flickry.Photo: 0x60c0000bbd20>, <flickry.Photo: 0x60c0000bbde0>, <flickry.Photo: 0x60c0000bbea0>, <flickry.Photo: 0x60c0000bbf60>, <flickry.Photo: 0x60c0000bc020>, <flickry.Photo: 0x60c0000bc0e0>, <flickry.Photo: 0x60c0000bc1a0>, <flickry.Photo: 0x60c0000bc260>, <flickry.Photo: 0x60c0000bc320>, <flickry.Photo: 0x60c0000bc3e0>, <flickry.Photo: 0x60c0000bc4a0>, <flickry.Photo: 0x60c0000bc560>, <flickry.Photo: 0x60c0000bc620>, <flickry.Photo: 0x60c0000bc6e0>, <flickry.Photo: 0x60c0000bc7a0>, <flickry.Photo: 0x60c0000bc860>, <flickry.Photo: 0x60c0000bc920>, <flickry.Photo: 0x60c0000bc9e0>, <flickry.Photo: 0x60c0000bcaa0>, <flickry.Photo: 0x60c0000bcb60>, <flickry.Photo: 0x60c0000bcc20>, <flickry.Photo: 0x60c0000bcce0>, <flickry.Photo: 0x60c0000bcda0>, <flickry.Photo: 0x60c0000bce60>, <flickry.Photo: 0x60c0000bcf20>, <flickry.Photo: 0x60c0000bcfe0>, <flickry.Photo: 0x60c0000bd0a0>, <flickry.Photo: 0x60c0000bd160>, <flickry.Photo: 0x60c0000bd220>, <flickry.Photo: 0x60c0000bd2e0>, <flickry.Photo: 0x60c0000bd3a0>, <flickry.Photo: 0x60c0000bd460>, <flickry.Photo: 0x60c0000bd520>, <flickry.Photo: 0x60c0000bd5e0>, <flickry.Photo: 0x60c0000bd6a0>, <flickry.Photo: 0x60c0000bd760>, <flickry.Photo: 0x60c0000bd820>, <flickry.Photo: 0x60c0000bd8e0>, <flickry.Photo: 0x60c0000bd9a0>, <flickry.Photo: 0x60c0000bda60>, <flickry.Photo: 0x60c0000bdb20>, <flickry.Photo: 0x60c0000bdbe0>, <flickry.Photo: 0x60c0000bdca0>, <flickry.Photo: 0x60c0000bdd60>, <flickry.Photo: 0x60c0000bde20>, <flickry.Photo: 0x60c0000bdee0>, <flickry.Photo: 0x60c0000bdfa0>, <flickry.Photo: 0x60c0000be060>, <flickry.Photo: 0x60c0000be120>, <flickry.Photo: 0x60c0000be1e0>, <flickry.Photo: 0x60c0000be2a0>, <flickry.Photo: 0x60c0000be360>, <flickry.Photo: 0x60c0000be420>, <flickry.Photo: 0x60c0000be4e0>, <flickry.Photo: 0x60c0000be5a0>, <flickry.Photo: 0x60c0000be660>, <flickry.Photo: 0x60c0000be720>, <flickry.Photo: 0x60c0000be7e0>, <flickry.Photo: 0x60c0000be8a0>, <flickry.Photo: 0x60c0000be960>, <flickry.Photo: 0x60c0000bea20>, <flickry.Photo: 0x60c0000beae0>, <flickry.Photo: 0x6240000bab20>, <flickry.Photo: 0x6240000ba640>, <flickry.Photo: 0x6100000bb1e0>, <flickry.Photo: 0x6100000baa60>], forKey: photo_data) // data was stored
+2019-05-24 15:47:38.691: PhotoController.model(data: 99)
+2019-05-24 15:47:38.692: PhotoController.downloadPhotos()
+2019-05-24 15:47:38.693: PhotoController.downloadImage(photo: <flickry.Photo: 0x6000002a4080>) // image file does not exist, downloading...
+2019-05-24 15:47:38.694: PhotoController.downloadImage(photo: <flickry.Photo: 0x6000002a4a40>) // image file does not exist, downloading...
+2019-05-24 15:47:38.695: PhotoController.downloadImage(photo: <flickry.Photo: 0x6000002a4740>) // image file does not exist, downloading...
+2019-05-24 15:47:38.696: PhotoController.downloadImage(photo: <flickry.Photo: 0x6000002a4680>) // image file does not exist, downloading...
+2019-05-24 15:47:38.696: PhotoController.downloadImage(photo: <flickry.Photo: 0x6000002a45c0>) // image file does not exist, downloading...
+2019-05-24 15:47:38.697: PhotoController.downloadImage(photo: <flickry.Photo: 0x60c0000ba880>) // image file does not exist, downloading...
+2019-05-24 15:47:38.698: PhotoController.downloadImage(photo: <flickry.Photo: 0x60c0000ba940>) // image file does not exist, downloading...
+2019-05-24 15:47:38.699: PhotoController.downloadImage(photo: <flickry.Photo: 0x60c0000baa00>) // image file does not exist, downloading...
+2019-05-24 15:47:38.700: PhotoController.downloadImage(photo: <flickry.Photo: 0x60c0000baac0>) // image file does not exist, downloading...
+2019-05-24 15:47:38.701: PhotoController.downloadImage(photo: <flickry.Photo: 0x60c0000ba7c0>) // image file does not exist, downloading...
+2019-05-24 15:47:38.701: PhotoController.downloadImage(photo: <flickry.Photo: 0x60c0000babe0>) // image file does not exist, downloading...
+2019-05-24 15:47:38.702: PhotoController.downloadImage(photo: <flickry.Photo: 0x60c0000baca0>) // image file does not exist, downloading...
+2019-05-24 15:47:38.703: PhotoController.downloadImage(photo: <flickry.Photo: 0x60c0000bad60>) // image file does not exist, downloading...
+2019-05-24 15:47:38.704: PhotoController.downloadImage(photo: <flickry.Photo: 0x60c0000bae20>) // image file does not exist, downloading...
+2019-05-24 15:47:38.705: PhotoController.downloadImage(photo: <flickry.Photo: 0x60c0000baee0>) // image file does not exist, downloading...
+2019-05-24 15:47:38.706: PhotoController.downloadImage(photo: <flickry.Photo: 0x60c0000bafa0>) // image file does not exist, downloading...
+2019-05-24 15:47:38.706: PhotoController.downloadImage(photo: <flickry.Photo: 0x60c0000bb060>) // image file does not exist, downloading...
+2019-05-24 15:47:38.707: PhotoController.downloadImage(photo: <flickry.Photo: 0x60c0000bb120>) // image file does not exist, downloading...
+2019-05-24 15:47:38.708: PhotoController.downloadImage(photo: <flickry.Photo: 0x60c0000bb1e0>) // image file does not exist, downloading...
+2019-05-24 15:47:38.709: PhotoController.downloadImage(photo: <flickry.Photo: 0x60c0000bb2a0>) // image file does not exist, downloading...
+2019-05-24 15:47:38.710: PhotoController.downloadImage(photo: <flickry.Photo: 0x60c0000bb360>) // image file does not exist, downloading...
+2019-05-24 15:47:38.711: PhotoController.downloadImage(photo: <flickry.Photo: 0x60c0000bb420>) // image file does not exist, downloading...
+2019-05-24 15:47:38.711: PhotoController.downloadImage(photo: <flickry.Photo: 0x60c0000bb4e0>) // image file does not exist, downloading...
+2019-05-24 15:47:38.712: PhotoController.downloadImage(photo: <flickry.Photo: 0x60c0000bb5a0>) // image file does not exist, downloading...
+2019-05-24 15:47:38.713: PhotoController.downloadImage(photo: <flickry.Photo: 0x60c0000bb660>) // image file does not exist, downloading...
+2019-05-24 15:47:38.714: PhotoController.downloadImage(photo: <flickry.Photo: 0x60c0000bb720>) // image file does not exist, downloading...
+2019-05-24 15:47:38.715: PhotoController.downloadImage(photo: <flickry.Photo: 0x60c0000bb7e0>) // image file does not exist, downloading...
+2019-05-24 15:47:38.715: PhotoController.downloadImage(photo: <flickry.Photo: 0x60c0000bb8a0>) // image file does not exist, downloading...
+2019-05-24 15:47:38.716: PhotoController.downloadImage(photo: <flickry.Photo: 0x60c0000bb960>) // image file does not exist, downloading...
+2019-05-24 15:47:38.717: PhotoController.downloadImage(photo: <flickry.Photo: 0x60c0000bba20>) // image file does not exist, downloading...
+2019-05-24 15:47:38.718: PhotoController.downloadImage(photo: <flickry.Photo: 0x60c0000bbae0>) // image file does not exist, downloading...
+2019-05-24 15:47:38.719: PhotoController.downloadImage(photo: <flickry.Photo: 0x60c0000bbba0>) // image file does not exist, downloading...
+2019-05-24 15:47:38.720: PhotoController.downloadImage(photo: <flickry.Photo: 0x60c0000bbc60>) // image file does not exist, downloading...
+2019-05-24 15:47:38.720: PhotoController.downloadImage(photo: <flickry.Photo: 0x60c0000bbd20>) // image file does not exist, downloading...
+2019-05-24 15:47:38.721: PhotoController.downloadImage(photo: <flickry.Photo: 0x60c0000bbde0>) // image file does not exist, downloading...
+2019-05-24 15:47:38.722: PhotoController.downloadImage(photo: <flickry.Photo: 0x60c0000bbea0>) // image file does not exist, downloading...
+2019-05-24 15:47:38.723: PhotoController.downloadImage(photo: <flickry.Photo: 0x60c0000bbf60>) // image file does not exist, downloading...
+2019-05-24 15:47:38.724: PhotoController.downloadImage(photo: <flickry.Photo: 0x60c0000bc020>) // image file does not exist, downloading...
+2019-05-24 15:47:38.724: PhotoController.downloadImage(photo: <flickry.Photo: 0x60c0000bc0e0>) // image file does not exist, downloading...
+2019-05-24 15:47:38.732: PhotoController.downloadImage(photo: <flickry.Photo: 0x60c0000bc1a0>) // image file does not exist, downloading...
+2019-05-24 15:47:38.732: PhotoController.downloadImage(photo: <flickry.Photo: 0x60c0000bc260>) // image file does not exist, downloading...
+2019-05-24 15:47:38.733: PhotoController.downloadImage(photo: <flickry.Photo: 0x60c0000bc320>) // image file does not exist, downloading...
+2019-05-24 15:47:38.734: PhotoController.downloadImage(photo: <flickry.Photo: 0x60c0000bc3e0>) // image file does not exist, downloading...
+2019-05-24 15:47:38.735: PhotoController.downloadImage(photo: <flickry.Photo: 0x60c0000bc4a0>) // image file does not exist, downloading...
+2019-05-24 15:47:38.735: PhotoController.downloadImage(photo: <flickry.Photo: 0x60c0000bc560>) // image file does not exist, downloading...
+2019-05-24 15:47:38.736: PhotoController.downloadImage(photo: <flickry.Photo: 0x60c0000bc620>) // image file does not exist, downloading...
+2019-05-24 15:47:38.737: PhotoController.downloadImage(photo: <flickry.Photo: 0x60c0000bc6e0>) // image file does not exist, downloading...
+2019-05-24 15:47:38.738: PhotoController.downloadImage(photo: <flickry.Photo: 0x60c0000bc7a0>) // image file does not exist, downloading...
+2019-05-24 15:47:38.739: PhotoController.downloadImage(photo: <flickry.Photo: 0x60c0000bc860>) // image file does not exist, downloading...
+2019-05-24 15:47:38.742: PhotoController.downloadImage(photo: <flickry.Photo: 0x60c0000bc920>) // image file does not exist, downloading...
+2019-05-24 15:47:38.743: PhotoController.downloadImage(photo: <flickry.Photo: 0x60c0000bc9e0>) // image file does not exist, downloading...
+2019-05-24 15:47:38.744: PhotoController.downloadImage(photo: <flickry.Photo: 0x60c0000bcaa0>) // image file does not exist, downloading...
+2019-05-24 15:47:38.745: PhotoController.downloadImage(photo: <flickry.Photo: 0x60c0000bcb60>) // image file does not exist, downloading...
+2019-05-24 15:47:38.745: PhotoController.downloadImage(photo: <flickry.Photo: 0x60c0000bcc20>) // image file does not exist, downloading...
+2019-05-24 15:47:38.746: PhotoController.downloadImage(photo: <flickry.Photo: 0x60c0000bcce0>) // image file does not exist, downloading...
+2019-05-24 15:47:38.747: PhotoController.downloadImage(photo: <flickry.Photo: 0x60c0000bcda0>) // image file does not exist, downloading...
+2019-05-24 15:47:38.748: PhotoController.downloadImage(photo: <flickry.Photo: 0x60c0000bce60>) // image file does not exist, downloading...
+2019-05-24 15:47:38.749: PhotoController.downloadImage(photo: <flickry.Photo: 0x60c0000bcf20>) // image file does not exist, downloading...
+2019-05-24 15:47:38.750: PhotoController.downloadImage(photo: <flickry.Photo: 0x60c0000bcfe0>) // image file does not exist, downloading...
+2019-05-24 15:47:38.751: PhotoController.downloadImage(photo: <flickry.Photo: 0x60c0000bd0a0>) // image file does not exist, downloading...
+2019-05-24 15:47:38.751: PhotoController.downloadImage(photo: <flickry.Photo: 0x60c0000bd160>) // image file does not exist, downloading...
+2019-05-24 15:47:38.752: PhotoController.downloadImage(photo: <flickry.Photo: 0x60c0000bd220>) // image file does not exist, downloading...
+2019-05-24 15:47:38.753: PhotoController.downloadImage(photo: <flickry.Photo: 0x60c0000bd2e0>) // image file does not exist, downloading...
+2019-05-24 15:47:38.754: PhotoController.downloadImage(photo: <flickry.Photo: 0x60c0000bd3a0>) // image file does not exist, downloading...
+2019-05-24 15:47:38.755: PhotoController.downloadImage(photo: <flickry.Photo: 0x60c0000bd460>) // image file does not exist, downloading...
+2019-05-24 15:47:38.756: PhotoController.downloadImage(photo: <flickry.Photo: 0x60c0000bd520>) // image file does not exist, downloading...
+2019-05-24 15:47:38.757: PhotoController.downloadImage(photo: <flickry.Photo: 0x60c0000bd5e0>) // image file does not exist, downloading...
+2019-05-24 15:47:38.757: PhotoController.downloadImage(photo: <flickry.Photo: 0x60c0000bd6a0>) // image file does not exist, downloading...
+2019-05-24 15:47:38.758: PhotoController.downloadImage(photo: <flickry.Photo: 0x60c0000bd760>) // image file does not exist, downloading...
+2019-05-24 15:47:38.759: PhotoController.downloadImage(photo: <flickry.Photo: 0x60c0000bd820>) // image file does not exist, downloading...
+2019-05-24 15:47:38.760: PhotoController.downloadImage(photo: <flickry.Photo: 0x60c0000bd8e0>) // image file does not exist, downloading...
+2019-05-24 15:47:38.761: PhotoController.downloadImage(photo: <flickry.Photo: 0x60c0000bd9a0>) // image file does not exist, downloading...
+2019-05-24 15:47:38.762: PhotoController.downloadImage(photo: <flickry.Photo: 0x60c0000bda60>) // image file does not exist, downloading...
+2019-05-24 15:47:38.763: PhotoController.downloadImage(photo: <flickry.Photo: 0x60c0000bdb20>) // image file does not exist, downloading...
+2019-05-24 15:47:38.763: PhotoController.downloadImage(photo: <flickry.Photo: 0x60c0000bdbe0>) // image file does not exist, downloading...
+2019-05-24 15:47:38.764: PhotoController.downloadImage(photo: <flickry.Photo: 0x60c0000bdca0>) // image file does not exist, downloading...
+2019-05-24 15:47:38.765: PhotoController.downloadImage(photo: <flickry.Photo: 0x60c0000bdd60>) // image file does not exist, downloading...
+2019-05-24 15:47:38.766: PhotoController.downloadImage(photo: <flickry.Photo: 0x60c0000bde20>) // image file does not exist, downloading...
+2019-05-24 15:47:38.767: PhotoController.downloadImage(photo: <flickry.Photo: 0x60c0000bdee0>) // image file does not exist, downloading...
+2019-05-24 15:47:38.768: PhotoController.downloadImage(photo: <flickry.Photo: 0x60c0000bdfa0>) // image file does not exist, downloading...
+2019-05-24 15:47:38.769: PhotoController.downloadImage(photo: <flickry.Photo: 0x60c0000be060>) // image file does not exist, downloading...
+2019-05-24 15:47:38.770: PhotoController.downloadImage(photo: <flickry.Photo: 0x60c0000be120>) // image file does not exist, downloading...
+2019-05-24 15:47:38.770: PhotoController.downloadImage(photo: <flickry.Photo: 0x60c0000be1e0>) // image file does not exist, downloading...
+2019-05-24 15:47:38.771: PhotoController.downloadImage(photo: <flickry.Photo: 0x60c0000be2a0>) // image file does not exist, downloading...
+2019-05-24 15:47:38.772: PhotoController.downloadImage(photo: <flickry.Photo: 0x60c0000be360>) // image file does not exist, downloading...
+2019-05-24 15:47:38.773: PhotoController.downloadImage(photo: <flickry.Photo: 0x60c0000be420>) // image file does not exist, downloading...
+2019-05-24 15:47:38.774: PhotoController.downloadImage(photo: <flickry.Photo: 0x60c0000be4e0>) // image file does not exist, downloading...
+2019-05-24 15:47:38.775: PhotoController.downloadImage(photo: <flickry.Photo: 0x60c0000be5a0>) // image file does not exist, downloading...
+2019-05-24 15:47:38.776: PhotoController.downloadImage(photo: <flickry.Photo: 0x60c0000be660>) // image file does not exist, downloading...
+2019-05-24 15:47:38.776: PhotoController.downloadImage(photo: <flickry.Photo: 0x60c0000be720>) // image file does not exist, downloading...
+2019-05-24 15:47:38.777: PhotoController.downloadImage(photo: <flickry.Photo: 0x60c0000be7e0>) // image file does not exist, downloading...
+2019-05-24 15:47:38.778: PhotoController.downloadImage(photo: <flickry.Photo: 0x60c0000be8a0>) // image file does not exist, downloading...
+2019-05-24 15:47:38.779: PhotoController.downloadImage(photo: <flickry.Photo: 0x60c0000be960>) // image file does not exist, downloading...
+2019-05-24 15:47:38.780: PhotoController.downloadImage(photo: <flickry.Photo: 0x60c0000bea20>) // image file does not exist, downloading...
+2019-05-24 15:47:38.781: PhotoController.downloadImage(photo: <flickry.Photo: 0x60c0000beae0>) // image file does not exist, downloading...
+2019-05-24 15:47:38.782: PhotoController.downloadImage(photo: <flickry.Photo: 0x6240000bab20>) // image file does not exist, downloading...
+2019-05-24 15:47:38.783: PhotoController.downloadImage(photo: <flickry.Photo: 0x6240000ba640>) // image file does not exist, downloading...
+2019-05-24 15:47:38.783: PhotoController.downloadImage(photo: <flickry.Photo: 0x6100000bb1e0>) // image file does not exist, downloading...
+2019-05-24 15:47:38.784: PhotoController.downloadImage(photo: <flickry.Photo: 0x6100000baa60>) // image file does not exist, downloading...
+2019-05-24 15:47:38.792: PhotosView.collectionView(cellForRowAtIndexPath: [0, 0])
+2019-05-24 15:47:38.795: PhotoCell.awakeFromNib()
+2019-05-24 15:47:38.797: PhotosView.collectionView(cellForRowAtIndexPath: [0, 1])
+2019-05-24 15:47:38.798: PhotoCell.awakeFromNib()
+2019-05-24 15:47:38.800: PhotosView.collectionView(cellForRowAtIndexPath: [0, 2])
+2019-05-24 15:47:38.801: PhotoCell.awakeFromNib()
+2019-05-24 15:47:38.802: PhotosView.collectionView(cellForRowAtIndexPath: [0, 3])
+2019-05-24 15:47:38.803: PhotoCell.awakeFromNib()
+2019-05-24 15:47:38.804: PhotosView.collectionView(cellForRowAtIndexPath: [0, 4])
+2019-05-24 15:47:38.805: PhotoCell.awakeFromNib()
+2019-05-24 15:47:38.806: PhotosView.collectionView(cellForRowAtIndexPath: [0, 5])
+2019-05-24 15:47:38.807: PhotoCell.awakeFromNib()
+2019-05-24 15:47:38.808: PhotosView.collectionView(cellForRowAtIndexPath: [0, 6])
+2019-05-24 15:47:38.809: PhotoCell.awakeFromNib()
+2019-05-24 15:47:38.811: PhotosView.collectionView(cellForRowAtIndexPath: [0, 7])
+2019-05-24 15:47:38.811: PhotoCell.awakeFromNib()
+2019-05-24 15:47:38.813: PhotosView.collectionView(cellForRowAtIndexPath: [0, 8])
+2019-05-24 15:47:38.813: PhotoCell.awakeFromNib()
+2019-05-24 15:47:38.815: PhotosView.collectionView(cellForRowAtIndexPath: [0, 9])
+2019-05-24 15:47:38.816: PhotoCell.awakeFromNib()
+2019-05-24 15:47:38.817: PhotosView.collectionView(cellForRowAtIndexPath: [0, 10])
+2019-05-24 15:47:38.818: PhotoCell.awakeFromNib()
+2019-05-24 15:47:38.819: PhotosView.collectionView(cellForRowAtIndexPath: [0, 11])
+2019-05-24 15:47:38.820: PhotoCell.awakeFromNib()
+2019-05-24 15:47:38.821: PhotosView.collectionView(cellForRowAtIndexPath: [0, 12])
+2019-05-24 15:47:38.822: PhotoCell.awakeFromNib()
+2019-05-24 15:47:38.823: PhotosView.collectionView(cellForRowAtIndexPath: [0, 13])
+2019-05-24 15:47:38.824: PhotoCell.awakeFromNib()
+2019-05-24 15:47:38.825: PhotosView.collectionView(cellForRowAtIndexPath: [0, 14])
+2019-05-24 15:47:38.826: PhotoCell.awakeFromNib()
+2019-05-24 15:47:38.827: PhotosView.collectionView(cellForRowAtIndexPath: [0, 15])
+2019-05-24 15:47:38.828: PhotoCell.awakeFromNib()
+2019-05-24 15:47:39.034: PhotoController.completionHandler()
+2019-05-24 15:47:39.038: PhotoController.completionHandler() //
+2019-05-24 15:47:39.061: PhotoController.completionHandler()
+2019-05-24 15:47:39.064: PhotoController.completionHandler() //
+2019-05-24 15:47:39.079: PhotosView.collectionView(cellForRowAtIndexPath: [0, 2])
+2019-05-24 15:47:39.079: PhotoCell.awakeFromNib()
+2019-05-24 15:47:39.121: PhotoController.completionHandler()
+2019-05-24 15:47:39.124: PhotoController.completionHandler() //
+2019-05-24 15:47:39.138: PhotosView.collectionView(cellForRowAtIndexPath: [0, 4])
+2019-05-24 15:47:39.139: PhotoController.completionHandler()
+2019-05-24 15:47:39.139: PhotoCell.awakeFromNib()
+2019-05-24 15:47:39.141: PhotoController.completionHandler() //
+2019-05-24 15:47:39.162: PhotoController.completionHandler()
+2019-05-24 15:47:39.164: PhotoController.completionHandler() //
+2019-05-24 15:47:39.173: PhotoController.completionHandler()
+2019-05-24 15:47:39.176: PhotoController.completionHandler() //
+2019-05-24 15:47:39.179: PhotosView.collectionView(cellForRowAtIndexPath: [0, 3])
+2019-05-24 15:47:39.180: PhotoCell.awakeFromNib()
+2019-05-24 15:47:39.194: PhotoController.completionHandler()
+2019-05-24 15:47:39.197: PhotoController.completionHandler() //
+2019-05-24 15:47:39.198: PhotoController.completionHandler()
+2019-05-24 15:47:39.201: PhotoController.completionHandler() //
+2019-05-24 15:47:39.222: PhotosView.collectionView(cellForRowAtIndexPath: [0, 8])
+2019-05-24 15:47:39.222: PhotoCell.awakeFromNib()
+2019-05-24 15:47:39.241: PhotoController.completionHandler()
+2019-05-24 15:47:39.243: PhotoController.completionHandler() //
+2019-05-24 15:47:39.248: PhotoController.completionHandler()
+2019-05-24 15:47:39.251: PhotoController.completionHandler() //
+2019-05-24 15:47:39.256: PhotoController.completionHandler()
+2019-05-24 15:47:39.258: PhotoController.completionHandler() //
+2019-05-24 15:47:39.263: PhotosView.collectionView(cellForRowAtIndexPath: [0, 1])
+2019-05-24 15:47:39.264: PhotoCell.awakeFromNib()
+2019-05-24 15:47:39.266: PhotoController.completionHandler()
+2019-05-24 15:47:39.269: PhotoController.completionHandler() //
+2019-05-24 15:47:39.275: PhotoController.completionHandler()
+2019-05-24 15:47:39.278: PhotoController.completionHandler() //
+2019-05-24 15:47:39.279: PhotoController.completionHandler()
+2019-05-24 15:47:39.281: PhotoController.completionHandler() //
+2019-05-24 15:47:39.304: PhotosView.collectionView(cellForRowAtIndexPath: [0, 6])
+2019-05-24 15:47:39.305: PhotoCell.awakeFromNib()
+2019-05-24 15:47:39.328: PhotoController.completionHandler()
+2019-05-24 15:47:39.330: PhotoController.completionHandler() //
+2019-05-24 15:47:39.346: PhotosView.collectionView(cellForRowAtIndexPath: [0, 7])
+2019-05-24 15:47:39.347: PhotoController.completionHandler()
+2019-05-24 15:47:39.347: PhotoCell.awakeFromNib()
+2019-05-24 15:47:39.350: PhotoController.completionHandler() //
+2019-05-24 15:47:39.356: PhotoController.completionHandler()
+2019-05-24 15:47:39.359: PhotoController.completionHandler() //
+2019-05-24 15:47:39.367: PhotoController.completionHandler()
+2019-05-24 15:47:39.370: PhotoController.completionHandler() //
+2019-05-24 15:47:39.379: PhotoController.completionHandler()
+2019-05-24 15:47:39.382: PhotoController.completionHandler() //
+2019-05-24 15:47:39.387: PhotosView.collectionView(cellForRowAtIndexPath: [0, 10])
+2019-05-24 15:47:39.388: PhotoCell.awakeFromNib()
+2019-05-24 15:47:39.398: PhotoController.completionHandler()
+2019-05-24 15:47:39.401: PhotoController.completionHandler() //
+2019-05-24 15:47:39.410: PhotoController.completionHandler()
+2019-05-24 15:47:39.413: PhotoController.completionHandler() //
+2019-05-24 15:47:39.419: PhotoController.completionHandler()
+2019-05-24 15:47:39.421: PhotoController.completionHandler() //
+2019-05-24 15:47:39.428: PhotosView.collectionView(cellForRowAtIndexPath: [0, 9])
+2019-05-24 15:47:39.429: PhotoCell.awakeFromNib()
+2019-05-24 15:47:39.456: PhotoController.completionHandler()
+2019-05-24 15:47:39.458: PhotoController.completionHandler() //
+2019-05-24 15:47:39.464: PhotoController.completionHandler()
+2019-05-24 15:47:39.467: PhotoController.completionHandler() //
+2019-05-24 15:47:39.470: PhotosView.collectionView(cellForRowAtIndexPath: [0, 5])
+2019-05-24 15:47:39.471: PhotoCell.awakeFromNib()
+2019-05-24 15:47:39.476: PhotoController.completionHandler()
+2019-05-24 15:47:39.479: PhotoController.completionHandler() //
+2019-05-24 15:47:39.498: PhotoController.completionHandler()
+2019-05-24 15:47:39.501: PhotoController.completionHandler() //
+2019-05-24 15:47:39.508: PhotoController.completionHandler()
+2019-05-24 15:47:39.511: PhotoController.completionHandler() //
+2019-05-24 15:47:39.511: PhotosView.collectionView(cellForRowAtIndexPath: [0, 12])
+2019-05-24 15:47:39.521: PhotoController.completionHandler()
+2019-05-24 15:47:39.524: PhotoController.completionHandler() //
+2019-05-24 15:47:39.543: PhotoController.completionHandler()
+2019-05-24 15:47:39.546: PhotoController.completionHandler() //
+2019-05-24 15:47:39.551: PhotosView.collectionView(cellForRowAtIndexPath: [0, 11])
+2019-05-24 15:47:39.557: PhotoController.completionHandler()
+2019-05-24 15:47:39.560: PhotoController.completionHandler() //
+2019-05-24 15:47:39.567: PhotoController.completionHandler()
+2019-05-24 15:47:39.569: PhotoController.completionHandler() //
+2019-05-24 15:47:39.578: PhotoController.completionHandler()
+2019-05-24 15:47:39.580: PhotoController.completionHandler() //
+2019-05-24 15:47:39.590: PhotoController.completionHandler()
+2019-05-24 15:47:39.592: PhotosView.collectionView(cellForRowAtIndexPath: [0, 14])
+2019-05-24 15:47:39.593: PhotoController.completionHandler() //
+2019-05-24 15:47:39.609: PhotoController.completionHandler()
+2019-05-24 15:47:39.612: PhotoController.completionHandler() //
+2019-05-24 15:47:39.619: PhotoController.completionHandler()
+2019-05-24 15:47:39.622: PhotoController.completionHandler() //
+2019-05-24 15:47:39.630: PhotosView.collectionView(cellForRowAtIndexPath: [0, 13])
+2019-05-24 15:47:39.649: PhotoController.completionHandler()
+2019-05-24 15:47:39.652: PhotoController.completionHandler() //
+2019-05-24 15:47:39.660: PhotoController.completionHandler()
+2019-05-24 15:47:39.663: PhotoController.completionHandler() //
+2019-05-24 15:47:39.669: PhotosView.collectionView(cellForRowAtIndexPath: [0, 15])
+2019-05-24 15:47:39.673: PhotoController.completionHandler()
+2019-05-24 15:47:39.675: PhotoController.completionHandler() //
+2019-05-24 15:47:39.677: PhotoController.completionHandler()
+2019-05-24 15:47:39.679: PhotoController.completionHandler() //
+2019-05-24 15:47:39.693: PhotoController.completionHandler()
+2019-05-24 15:47:39.696: PhotoController.completionHandler() //
+2019-05-24 15:47:39.720: PhotoController.completionHandler()
+2019-05-24 15:47:39.723: PhotoController.completionHandler() //
+2019-05-24 15:47:39.727: PhotoController.completionHandler()
+2019-05-24 15:47:39.730: PhotoController.completionHandler() //
+2019-05-24 15:47:39.741: PhotoController.completionHandler()
+2019-05-24 15:47:39.744: PhotoController.completionHandler() //
+2019-05-24 15:47:39.759: PhotoController.completionHandler()
+2019-05-24 15:47:39.762: PhotoController.completionHandler() //
+2019-05-24 15:47:39.769: PhotoController.completionHandler()
+2019-05-24 15:47:39.772: PhotoController.completionHandler() //
+2019-05-24 15:47:39.789: PhotoController.completionHandler()
+2019-05-24 15:47:39.792: PhotoController.completionHandler() //
+2019-05-24 15:47:39.807: PhotoController.completionHandler()
+2019-05-24 15:47:39.810: PhotoController.completionHandler() //
+2019-05-24 15:47:39.814: PhotoController.completionHandler()
+2019-05-24 15:47:39.816: PhotoController.completionHandler() //
+2019-05-24 15:47:39.822: PhotoController.completionHandler()
+2019-05-24 15:47:39.825: PhotoController.completionHandler() //
+2019-05-24 15:47:39.838: PhotoController.completionHandler()
+2019-05-24 15:47:39.841: PhotoController.completionHandler() //
+2019-05-24 15:47:39.842: PhotoController.completionHandler()
+2019-05-24 15:47:39.844: PhotoController.completionHandler() //
+2019-05-24 15:47:39.871: PhotoController.completionHandler()
+2019-05-24 15:47:39.874: PhotoController.completionHandler() //
+2019-05-24 15:47:39.890: PhotoController.completionHandler()
+2019-05-24 15:47:39.893: PhotoController.completionHandler() //
+2019-05-24 15:47:39.920: PhotoController.completionHandler()
+2019-05-24 15:47:39.922: PhotoController.completionHandler() //
+2019-05-24 15:47:39.927: PhotoController.completionHandler()
+2019-05-24 15:47:39.930: PhotoController.completionHandler() //
+2019-05-24 15:47:40.590: PhotoController.completionHandler()
+2019-05-24 15:47:40.593: PhotoController.completionHandler() //
+2019-05-24 15:47:40.594: PhotoController.completionHandler()
+2019-05-24 15:47:40.596: PhotoController.completionHandler() //
+2019-05-24 15:47:40.597: PhotoController.completionHandler()
+2019-05-24 15:47:40.599: PhotoController.completionHandler() //
+2019-05-24 15:47:40.600: PhotoController.completionHandler()
+2019-05-24 15:47:40.601: PhotosView.collectionView(cellForRowAtIndexPath: [0, 0])
+2019-05-24 15:47:40.603: PhotoController.completionHandler() //
+2019-05-24 15:47:40.603: PhotoController.completionHandler()
+2019-05-24 15:47:40.606: PhotoController.completionHandler() //
+2019-05-24 15:47:40.606: PhotoController.completionHandler()
+2019-05-24 15:47:40.609: PhotoController.completionHandler() //
+2019-05-24 15:47:40.609: PhotoController.completionHandler()
+2019-05-24 15:47:40.612: PhotoController.completionHandler() //
+2019-05-24 15:47:40.613: PhotoController.completionHandler()
+2019-05-24 15:47:40.616: PhotoController.completionHandler() //
+2019-05-24 15:47:40.616: PhotoController.completionHandler()
+2019-05-24 15:47:40.619: PhotoController.completionHandler() //
+2019-05-24 15:47:40.620: PhotoController.completionHandler()
+2019-05-24 15:47:40.622: PhotoController.completionHandler() //
+2019-05-24 15:47:40.623: PhotoController.completionHandler()
+2019-05-24 15:47:40.625: PhotoController.completionHandler() //
+2019-05-24 15:47:40.626: PhotoController.completionHandler()
+2019-05-24 15:47:40.628: PhotoController.completionHandler() //
+2019-05-24 15:47:40.629: PhotoController.completionHandler()
+2019-05-24 15:47:40.632: PhotoController.completionHandler() //
+2019-05-24 15:47:40.632: PhotoController.completionHandler()
+2019-05-24 15:47:40.635: PhotoController.completionHandler() //
+2019-05-24 15:47:40.635: PhotoController.completionHandler()
+2019-05-24 15:47:40.638: PhotoController.completionHandler() //
+2019-05-24 15:47:40.638: PhotoController.completionHandler()
+2019-05-24 15:47:40.641: PhotoController.completionHandler() //
+2019-05-24 15:47:40.641: PhotoController.completionHandler()
+2019-05-24 15:47:40.644: PhotoController.completionHandler() //
+2019-05-24 15:47:40.644: PhotoController.completionHandler()
+2019-05-24 15:47:40.647: PhotoController.completionHandler() //
+2019-05-24 15:47:40.648: PhotoController.completionHandler()
+2019-05-24 15:47:40.650: PhotoController.completionHandler() //
+2019-05-24 15:47:40.651: PhotoController.completionHandler()
+2019-05-24 15:47:40.654: PhotoController.completionHandler() //
+2019-05-24 15:47:40.654: PhotoController.completionHandler()
+2019-05-24 15:47:40.657: PhotoController.completionHandler() //
+2019-05-24 15:47:40.658: PhotoController.completionHandler()
+2019-05-24 15:47:40.660: PhotoController.completionHandler() //
+2019-05-24 15:47:40.661: PhotoController.completionHandler()
+2019-05-24 15:47:40.663: PhotoController.completionHandler() //
+2019-05-24 15:47:40.664: PhotoController.completionHandler()
+2019-05-24 15:47:40.666: PhotoController.completionHandler() //
+2019-05-24 15:47:40.667: PhotoController.completionHandler()
+2019-05-24 15:47:40.669: PhotoController.completionHandler() //
+2019-05-24 15:47:40.670: PhotoController.completionHandler()
+2019-05-24 15:47:40.672: PhotoController.completionHandler() //
+2019-05-24 15:47:40.673: PhotoController.completionHandler()
+2019-05-24 15:47:40.676: PhotoController.completionHandler() //
+2019-05-24 15:47:40.676: PhotoController.completionHandler()
+2019-05-24 15:47:40.678: PhotoController.completionHandler() //
+2019-05-24 15:47:40.679: PhotoController.completionHandler()
+2019-05-24 15:47:40.682: PhotoController.completionHandler() //
+2019-05-24 15:47:40.682: PhotoController.completionHandler()
+2019-05-24 15:47:40.685: PhotoController.completionHandler() //
+2019-05-24 15:47:40.685: PhotoController.completionHandler()
+2019-05-24 15:47:40.688: PhotoController.completionHandler() //
+2019-05-24 15:47:40.689: PhotoController.completionHandler()
+2019-05-24 15:47:40.691: PhotoController.completionHandler() //
+2019-05-24 15:47:40.692: PhotoController.completionHandler()
+2019-05-24 15:47:40.694: PhotoController.completionHandler() //
+2019-05-24 15:47:40.695: PhotoController.completionHandler()
+2019-05-24 15:47:40.697: PhotoController.completionHandler() //
+2019-05-24 15:47:40.698: PhotoController.completionHandler()
+2019-05-24 15:47:40.700: PhotoController.completionHandler() //
+2019-05-24 15:47:40.701: PhotoController.completionHandler()
+2019-05-24 15:47:40.703: PhotoController.completionHandler() //
+2019-05-24 15:47:40.704: PhotoController.completionHandler()
+2019-05-24 15:47:40.706: PhotoController.completionHandler() //
+2019-05-24 15:47:40.707: PhotoController.completionHandler()
+2019-05-24 15:47:40.709: PhotoController.completionHandler() //
+2019-05-24 15:47:40.710: PhotoController.completionHandler()
+2019-05-24 15:47:40.712: PhotoController.completionHandler() //
+2019-05-24 15:47:40.713: PhotoController.completionHandler()
+2019-05-24 15:47:40.715: PhotoController.completionHandler() //
+2019-05-24 15:47:40.716: PhotoController.completionHandler()
+2019-05-24 15:47:40.718: PhotoController.completionHandler() //
+2019-05-24 15:47:40.719: PhotoController.completionHandler()
+2019-05-24 15:47:40.721: PhotoController.completionHandler() //
+2019-05-24 15:47:40.722: PhotoController.completionHandler()
+2019-05-24 15:47:40.724: PhotoController.completionHandler() //
+2019-05-24 15:47:40.725: PhotoController.completionHandler()
+2019-05-24 15:47:40.727: PhotoController.completionHandler() //
+

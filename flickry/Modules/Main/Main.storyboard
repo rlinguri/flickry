@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="vTq-N1-6Hs">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Navigation-->
+        <scene sceneID="XiX-Cg-lTm">
+            <objects>
+                <viewControllerPlaceholder storyboardName="Navigation" id="Cc1-yh-8Y3" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="vWh-aC-Mie" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="847" y="348"/>
+        </scene>
+        <!--Main-->
+        <scene sceneID="w2k-TS-d6a">
+            <objects>
+                <viewController storyboardIdentifier="Main" title="Main" useStoryboardIdentifierAsRestorationIdentifier="YES" id="vTq-N1-6Hs" customClass="MainView" customModule="flickry" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="50c-yU-3qn">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <containerView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="lWk-CH-0ZW">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                <connections>
+                                    <segue destination="Cc1-yh-8Y3" kind="embed" identifier="mainEmbedNavigation" id="vLM-Lf-fgw"/>
+                                </connections>
+                            </containerView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="lWk-CH-0ZW" firstAttribute="leading" secondItem="50c-yU-3qn" secondAttribute="leading" id="Iqp-Xo-AcF"/>
+                            <constraint firstAttribute="bottom" secondItem="lWk-CH-0ZW" secondAttribute="bottom" id="MtL-1b-hcr"/>
+                            <constraint firstItem="lWk-CH-0ZW" firstAttribute="top" secondItem="50c-yU-3qn" secondAttribute="top" id="VH8-Nj-6ly"/>
+                            <constraint firstAttribute="trailing" secondItem="lWk-CH-0ZW" secondAttribute="trailing" id="zkk-Wu-M8U"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="w4Z-lc-cHZ"/>
+                    </view>
+                    <connections>
+                        <outlet property="viewBottom" destination="MtL-1b-hcr" id="lTJ-9U-HpT"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="p32-dv-1je" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+        </scene>
+    </scenes>
+    <color key="tintColor" red="0.1764705882352941" green="0.45490196078431372" blue="0.72941176470588232" alpha="1" colorSpace="calibratedRGB"/>
+</document>

@@ -1,0 +1,378 @@
+// Startup
+
+2019-05-24 15:48:32.855: MainView.awakeFromNib()
+2019-05-24 15:48:32.859: AppDelegate.application(didFinishLaunchingWithOptions: nil)
+2019-05-24 15:48:32.863: Index.init()
+2019-05-24 15:48:32.863: Cursor.init()
+2019-05-24 15:48:32.863: PhotoModel.init()
+2019-05-24 15:48:32.869: Photo.init(coder: <NSKeyedUnarchiver: 0x60c00010e220>)
+2019-05-24 15:48:32.870: Photo.init(coder: <NSKeyedUnarchiver: 0x60c00010e220>)
+2019-05-24 15:48:32.870: Photo.init(coder: <NSKeyedUnarchiver: 0x60c00010e220>)
+2019-05-24 15:48:32.870: Photo.init(coder: <NSKeyedUnarchiver: 0x60c00010e220>)
+2019-05-24 15:48:32.871: Photo.init(coder: <NSKeyedUnarchiver: 0x60c00010e220>)
+2019-05-24 15:48:32.871: Photo.init(coder: <NSKeyedUnarchiver: 0x60c00010e220>)
+2019-05-24 15:48:32.872: Photo.init(coder: <NSKeyedUnarchiver: 0x60c00010e220>)
+2019-05-24 15:48:32.872: Photo.init(coder: <NSKeyedUnarchiver: 0x60c00010e220>)
+2019-05-24 15:48:32.872: Photo.init(coder: <NSKeyedUnarchiver: 0x60c00010e220>)
+2019-05-24 15:48:32.873: Photo.init(coder: <NSKeyedUnarchiver: 0x60c00010e220>)
+2019-05-24 15:48:32.873: Photo.init(coder: <NSKeyedUnarchiver: 0x60c00010e220>)
+2019-05-24 15:48:32.874: Photo.init(coder: <NSKeyedUnarchiver: 0x60c00010e220>)
+2019-05-24 15:48:32.897: Photo.init(coder: <NSKeyedUnarchiver: 0x60c00010e220>)
+2019-05-24 15:48:32.898: Photo.init(coder: <NSKeyedUnarchiver: 0x60c00010e220>)
+2019-05-24 15:48:32.898: Photo.init(coder: <NSKeyedUnarchiver: 0x60c00010e220>)
+2019-05-24 15:48:32.899: Photo.init(coder: <NSKeyedUnarchiver: 0x60c00010e220>)
+2019-05-24 15:48:32.899: Photo.init(coder: <NSKeyedUnarchiver: 0x60c00010e220>)
+2019-05-24 15:48:32.900: Photo.init(coder: <NSKeyedUnarchiver: 0x60c00010e220>)
+2019-05-24 15:48:32.900: Photo.init(coder: <NSKeyedUnarchiver: 0x60c00010e220>)
+2019-05-24 15:48:32.901: Photo.init(coder: <NSKeyedUnarchiver: 0x60c00010e220>)
+2019-05-24 15:48:32.901: Photo.init(coder: <NSKeyedUnarchiver: 0x60c00010e220>)
+2019-05-24 15:48:32.901: Photo.init(coder: <NSKeyedUnarchiver: 0x60c00010e220>)
+2019-05-24 15:48:32.902: Photo.init(coder: <NSKeyedUnarchiver: 0x60c00010e220>)
+2019-05-24 15:48:32.902: Photo.init(coder: <NSKeyedUnarchiver: 0x60c00010e220>)
+2019-05-24 15:48:32.903: Photo.init(coder: <NSKeyedUnarchiver: 0x60c00010e220>)
+2019-05-24 15:48:32.903: Photo.init(coder: <NSKeyedUnarchiver: 0x60c00010e220>)
+2019-05-24 15:48:32.904: Photo.init(coder: <NSKeyedUnarchiver: 0x60c00010e220>)
+2019-05-24 15:48:32.904: Photo.init(coder: <NSKeyedUnarchiver: 0x60c00010e220>)
+2019-05-24 15:48:32.904: Photo.init(coder: <NSKeyedUnarchiver: 0x60c00010e220>)
+2019-05-24 15:48:32.905: Photo.init(coder: <NSKeyedUnarchiver: 0x60c00010e220>)
+2019-05-24 15:48:32.905: Photo.init(coder: <NSKeyedUnarchiver: 0x60c00010e220>)
+2019-05-24 15:48:32.906: Photo.init(coder: <NSKeyedUnarchiver: 0x60c00010e220>)
+2019-05-24 15:48:32.906: Photo.init(coder: <NSKeyedUnarchiver: 0x60c00010e220>)
+2019-05-24 15:48:32.906: Photo.init(coder: <NSKeyedUnarchiver: 0x60c00010e220>)
+2019-05-24 15:48:32.907: Photo.init(coder: <NSKeyedUnarchiver: 0x60c00010e220>)
+2019-05-24 15:48:32.907: Photo.init(coder: <NSKeyedUnarchiver: 0x60c00010e220>)
+2019-05-24 15:48:32.908: Photo.init(coder: <NSKeyedUnarchiver: 0x60c00010e220>)
+2019-05-24 15:48:32.908: Photo.init(coder: <NSKeyedUnarchiver: 0x60c00010e220>)
+2019-05-24 15:48:32.909: Photo.init(coder: <NSKeyedUnarchiver: 0x60c00010e220>)
+2019-05-24 15:48:32.909: Photo.init(coder: <NSKeyedUnarchiver: 0x60c00010e220>)
+2019-05-24 15:48:32.909: Photo.init(coder: <NSKeyedUnarchiver: 0x60c00010e220>)
+2019-05-24 15:48:32.910: Photo.init(coder: <NSKeyedUnarchiver: 0x60c00010e220>)
+2019-05-24 15:48:32.910: Photo.init(coder: <NSKeyedUnarchiver: 0x60c00010e220>)
+2019-05-24 15:48:32.911: Photo.init(coder: <NSKeyedUnarchiver: 0x60c00010e220>)
+2019-05-24 15:48:32.911: Photo.init(coder: <NSKeyedUnarchiver: 0x60c00010e220>)
+2019-05-24 15:48:32.911: Photo.init(coder: <NSKeyedUnarchiver: 0x60c00010e220>)
+2019-05-24 15:48:32.912: Photo.init(coder: <NSKeyedUnarchiver: 0x60c00010e220>)
+2019-05-24 15:48:32.912: Photo.init(coder: <NSKeyedUnarchiver: 0x60c00010e220>)
+2019-05-24 15:48:32.913: Photo.init(coder: <NSKeyedUnarchiver: 0x60c00010e220>)
+2019-05-24 15:48:32.913: Photo.init(coder: <NSKeyedUnarchiver: 0x60c00010e220>)
+2019-05-24 15:48:32.914: Photo.init(coder: <NSKeyedUnarchiver: 0x60c00010e220>)
+2019-05-24 15:48:32.914: Photo.init(coder: <NSKeyedUnarchiver: 0x60c00010e220>)
+2019-05-24 15:48:32.914: Photo.init(coder: <NSKeyedUnarchiver: 0x60c00010e220>)
+2019-05-24 15:48:32.915: Photo.init(coder: <NSKeyedUnarchiver: 0x60c00010e220>)
+2019-05-24 15:48:32.915: Photo.init(coder: <NSKeyedUnarchiver: 0x60c00010e220>)
+2019-05-24 15:48:32.916: Photo.init(coder: <NSKeyedUnarchiver: 0x60c00010e220>)
+2019-05-24 15:48:32.916: Photo.init(coder: <NSKeyedUnarchiver: 0x60c00010e220>)
+2019-05-24 15:48:32.916: Photo.init(coder: <NSKeyedUnarchiver: 0x60c00010e220>)
+2019-05-24 15:48:32.917: Photo.init(coder: <NSKeyedUnarchiver: 0x60c00010e220>)
+2019-05-24 15:48:32.917: Photo.init(coder: <NSKeyedUnarchiver: 0x60c00010e220>)
+2019-05-24 15:48:32.918: Photo.init(coder: <NSKeyedUnarchiver: 0x60c00010e220>)
+2019-05-24 15:48:32.918: Photo.init(coder: <NSKeyedUnarchiver: 0x60c00010e220>)
+2019-05-24 15:48:32.918: Photo.init(coder: <NSKeyedUnarchiver: 0x60c00010e220>)
+2019-05-24 15:48:32.919: Photo.init(coder: <NSKeyedUnarchiver: 0x60c00010e220>)
+2019-05-24 15:48:32.919: Photo.init(coder: <NSKeyedUnarchiver: 0x60c00010e220>)
+2019-05-24 15:48:32.920: Photo.init(coder: <NSKeyedUnarchiver: 0x60c00010e220>)
+2019-05-24 15:48:32.920: Photo.init(coder: <NSKeyedUnarchiver: 0x60c00010e220>)
+2019-05-24 15:48:32.921: Photo.init(coder: <NSKeyedUnarchiver: 0x60c00010e220>)
+2019-05-24 15:48:32.921: Photo.init(coder: <NSKeyedUnarchiver: 0x60c00010e220>)
+2019-05-24 15:48:32.921: Photo.init(coder: <NSKeyedUnarchiver: 0x60c00010e220>)
+2019-05-24 15:48:32.922: Photo.init(coder: <NSKeyedUnarchiver: 0x60c00010e220>)
+2019-05-24 15:48:32.922: Photo.init(coder: <NSKeyedUnarchiver: 0x60c00010e220>)
+2019-05-24 15:48:32.923: Photo.init(coder: <NSKeyedUnarchiver: 0x60c00010e220>)
+2019-05-24 15:48:32.923: Photo.init(coder: <NSKeyedUnarchiver: 0x60c00010e220>)
+2019-05-24 15:48:32.923: Photo.init(coder: <NSKeyedUnarchiver: 0x60c00010e220>)
+2019-05-24 15:48:32.924: Photo.init(coder: <NSKeyedUnarchiver: 0x60c00010e220>)
+2019-05-24 15:48:32.924: Photo.init(coder: <NSKeyedUnarchiver: 0x60c00010e220>)
+2019-05-24 15:48:32.925: Photo.init(coder: <NSKeyedUnarchiver: 0x60c00010e220>)
+2019-05-24 15:48:32.925: Photo.init(coder: <NSKeyedUnarchiver: 0x60c00010e220>)
+2019-05-24 15:48:32.926: Photo.init(coder: <NSKeyedUnarchiver: 0x60c00010e220>)
+2019-05-24 15:48:32.926: Photo.init(coder: <NSKeyedUnarchiver: 0x60c00010e220>)
+2019-05-24 15:48:32.926: Photo.init(coder: <NSKeyedUnarchiver: 0x60c00010e220>)
+2019-05-24 15:48:32.927: Photo.init(coder: <NSKeyedUnarchiver: 0x60c00010e220>)
+2019-05-24 15:48:32.927: Photo.init(coder: <NSKeyedUnarchiver: 0x60c00010e220>)
+2019-05-24 15:48:32.928: Photo.init(coder: <NSKeyedUnarchiver: 0x60c00010e220>)
+2019-05-24 15:48:32.928: Photo.init(coder: <NSKeyedUnarchiver: 0x60c00010e220>)
+2019-05-24 15:48:32.928: Photo.init(coder: <NSKeyedUnarchiver: 0x60c00010e220>)
+2019-05-24 15:48:32.929: Photo.init(coder: <NSKeyedUnarchiver: 0x60c00010e220>)
+2019-05-24 15:48:32.929: Photo.init(coder: <NSKeyedUnarchiver: 0x60c00010e220>)
+2019-05-24 15:48:32.930: Photo.init(coder: <NSKeyedUnarchiver: 0x60c00010e220>)
+2019-05-24 15:48:32.930: Photo.init(coder: <NSKeyedUnarchiver: 0x60c00010e220>)
+2019-05-24 15:48:32.931: Photo.init(coder: <NSKeyedUnarchiver: 0x60c00010e220>)
+2019-05-24 15:48:32.931: Photo.init(coder: <NSKeyedUnarchiver: 0x60c00010e220>)
+2019-05-24 15:48:32.931: Photo.init(coder: <NSKeyedUnarchiver: 0x60c00010e220>)
+2019-05-24 15:48:32.932: Photo.init(coder: <NSKeyedUnarchiver: 0x60c00010e220>)
+2019-05-24 15:48:32.932: Photo.init(coder: <NSKeyedUnarchiver: 0x60c00010e220>)
+2019-05-24 15:48:32.933: Photo.init(coder: <NSKeyedUnarchiver: 0x60c00010e220>)
+2019-05-24 15:48:32.933: Photo.init(coder: <NSKeyedUnarchiver: 0x60c00010e220>)
+2019-05-24 15:48:32.933: Photo.init(coder: <NSKeyedUnarchiver: 0x60c00010e220>)
+2019-05-24 15:48:32.934: Defaults.object(forKey: photo_data) // retrieved data and returned unarchived object
+2019-05-24 15:48:32.935: PhotoController.model(data: 99)
+2019-05-24 15:48:32.935: PhotoController.downloadPhotos()
+2019-05-24 15:48:32.951: PhotoController.downloadImage(photo: <flickry.Photo: 0x60c0000a95a0>) // image file exists, aborting download...
+2019-05-24 15:48:32.951: PhotoController.downloadImage(photo: <flickry.Photo: 0x60c0000a96c0>) // image file exists, aborting download...
+2019-05-24 15:48:32.952: PhotoController.downloadImage(photo: <flickry.Photo: 0x60c0000a97e0>) // image file exists, aborting download...
+2019-05-24 15:48:32.953: PhotoController.downloadImage(photo: <flickry.Photo: 0x60c0000a9900>) // image file exists, aborting download...
+2019-05-24 15:48:32.953: PhotoController.downloadImage(photo: <flickry.Photo: 0x60c0000a9a20>) // image file exists, aborting download...
+2019-05-24 15:48:32.954: PhotoController.downloadImage(photo: <flickry.Photo: 0x60c0000a9b40>) // image file exists, aborting download...
+2019-05-24 15:48:32.954: PhotoController.downloadImage(photo: <flickry.Photo: 0x60c0000a9c60>) // image file exists, aborting download...
+2019-05-24 15:48:32.955: PhotoController.downloadImage(photo: <flickry.Photo: 0x60c0000a9d80>) // image file exists, aborting download...
+2019-05-24 15:48:32.956: PhotoController.downloadImage(photo: <flickry.Photo: 0x60c0000a9ea0>) // image file exists, aborting download...
+2019-05-24 15:48:32.956: PhotoController.downloadImage(photo: <flickry.Photo: 0x60c0000a9fc0>) // image file exists, aborting download...
+2019-05-24 15:48:32.957: PhotoController.downloadImage(photo: <flickry.Photo: 0x60c0000aa0e0>) // image file exists, aborting download...
+2019-05-24 15:48:32.958: PhotoController.downloadImage(photo: <flickry.Photo: 0x60c0000aa200>) // image file exists, aborting download...
+2019-05-24 15:48:32.958: PhotoController.downloadImage(photo: <flickry.Photo: 0x6140000acb40>) // image file exists, aborting download...
+2019-05-24 15:48:32.959: PhotoController.downloadImage(photo: <flickry.Photo: 0x6140000acd80>) // image file exists, aborting download...
+2019-05-24 15:48:32.960: PhotoController.downloadImage(photo: <flickry.Photo: 0x6140000acea0>) // image file exists, aborting download...
+2019-05-24 15:48:32.960: PhotoController.downloadImage(photo: <flickry.Photo: 0x6140000acfc0>) // image file exists, aborting download...
+2019-05-24 15:48:32.961: PhotoController.downloadImage(photo: <flickry.Photo: 0x6140000ad0e0>) // image file exists, aborting download...
+2019-05-24 15:48:32.961: PhotoController.downloadImage(photo: <flickry.Photo: 0x6140000ad200>) // image file exists, aborting download...
+2019-05-24 15:48:32.962: PhotoController.downloadImage(photo: <flickry.Photo: 0x6140000ad320>) // image file exists, aborting download...
+2019-05-24 15:48:32.963: PhotoController.downloadImage(photo: <flickry.Photo: 0x6140000ad440>) // image file exists, aborting download...
+2019-05-24 15:48:32.963: PhotoController.downloadImage(photo: <flickry.Photo: 0x6140000ad560>) // image file exists, aborting download...
+2019-05-24 15:48:32.964: PhotoController.downloadImage(photo: <flickry.Photo: 0x6140000ad680>) // image file exists, aborting download...
+2019-05-24 15:48:32.965: PhotoController.downloadImage(photo: <flickry.Photo: 0x6140000ad7a0>) // image file exists, aborting download...
+2019-05-24 15:48:32.965: PhotoController.downloadImage(photo: <flickry.Photo: 0x6140000ad8c0>) // image file exists, aborting download...
+2019-05-24 15:48:32.966: PhotoController.downloadImage(photo: <flickry.Photo: 0x6140000ad9e0>) // image file exists, aborting download...
+2019-05-24 15:48:32.967: PhotoController.downloadImage(photo: <flickry.Photo: 0x6140000adb60>) // image file exists, aborting download...
+2019-05-24 15:48:32.967: PhotoController.downloadImage(photo: <flickry.Photo: 0x6140000adc80>) // image file exists, aborting download...
+2019-05-24 15:48:32.968: PhotoController.downloadImage(photo: <flickry.Photo: 0x6140000adda0>) // image file exists, aborting download...
+2019-05-24 15:48:32.969: PhotoController.downloadImage(photo: <flickry.Photo: 0x6140000adec0>) // image file exists, aborting download...
+2019-05-24 15:48:32.969: PhotoController.downloadImage(photo: <flickry.Photo: 0x6140000adfe0>) // image file exists, aborting download...
+2019-05-24 15:48:32.970: PhotoController.downloadImage(photo: <flickry.Photo: 0x6140000ae100>) // image file exists, aborting download...
+2019-05-24 15:48:32.971: PhotoController.downloadImage(photo: <flickry.Photo: 0x6140000ae220>) // image file exists, aborting download...
+2019-05-24 15:48:32.971: PhotoController.downloadImage(photo: <flickry.Photo: 0x6140000ae340>) // image file exists, aborting download...
+2019-05-24 15:48:32.972: PhotoController.downloadImage(photo: <flickry.Photo: 0x6140000ae460>) // image file exists, aborting download...
+2019-05-24 15:48:32.973: PhotoController.downloadImage(photo: <flickry.Photo: 0x6140000ae580>) // image file exists, aborting download...
+2019-05-24 15:48:32.973: PhotoController.downloadImage(photo: <flickry.Photo: 0x6140000ae6a0>) // image file exists, aborting download...
+2019-05-24 15:48:32.974: PhotoController.downloadImage(photo: <flickry.Photo: 0x6140000ae7c0>) // image file exists, aborting download...
+2019-05-24 15:48:32.975: PhotoController.downloadImage(photo: <flickry.Photo: 0x6140000ae8e0>) // image file exists, aborting download...
+2019-05-24 15:48:32.975: PhotoController.downloadImage(photo: <flickry.Photo: 0x6140000aea00>) // image file exists, aborting download...
+2019-05-24 15:48:32.976: PhotoController.downloadImage(photo: <flickry.Photo: 0x6140000aeb20>) // image file exists, aborting download...
+2019-05-24 15:48:32.976: PhotoController.downloadImage(photo: <flickry.Photo: 0x6140000aec40>) // image file exists, aborting download...
+2019-05-24 15:48:32.977: PhotoController.downloadImage(photo: <flickry.Photo: 0x6140000aed60>) // image file exists, aborting download...
+2019-05-24 15:48:32.978: PhotoController.downloadImage(photo: <flickry.Photo: 0x6140000aee80>) // image file exists, aborting download...
+2019-05-24 15:48:32.979: PhotoController.downloadImage(photo: <flickry.Photo: 0x6140000aefa0>) // image file exists, aborting download...
+2019-05-24 15:48:32.979: PhotoController.downloadImage(photo: <flickry.Photo: 0x6140000af0c0>) // image file exists, aborting download...
+2019-05-24 15:48:32.980: PhotoController.downloadImage(photo: <flickry.Photo: 0x6140000af1e0>) // image file exists, aborting download...
+2019-05-24 15:48:32.981: PhotoController.downloadImage(photo: <flickry.Photo: 0x6140000af300>) // image file exists, aborting download...
+2019-05-24 15:48:32.981: PhotoController.downloadImage(photo: <flickry.Photo: 0x6140000af420>) // image file exists, aborting download...
+2019-05-24 15:48:32.982: PhotoController.downloadImage(photo: <flickry.Photo: 0x6140000af540>) // image file exists, aborting download...
+2019-05-24 15:48:32.983: PhotoController.downloadImage(photo: <flickry.Photo: 0x6140000af660>) // image file exists, aborting download...
+2019-05-24 15:48:32.983: PhotoController.downloadImage(photo: <flickry.Photo: 0x6140000af780>) // image file exists, aborting download...
+2019-05-24 15:48:32.984: PhotoController.downloadImage(photo: <flickry.Photo: 0x6140000af8a0>) // image file exists, aborting download...
+2019-05-24 15:48:32.985: PhotoController.downloadImage(photo: <flickry.Photo: 0x6140000af9c0>) // image file exists, aborting download...
+2019-05-24 15:48:32.985: PhotoController.downloadImage(photo: <flickry.Photo: 0x6140000afae0>) // image file exists, aborting download...
+2019-05-24 15:48:32.986: PhotoController.downloadImage(photo: <flickry.Photo: 0x6140000afc00>) // image file exists, aborting download...
+2019-05-24 15:48:32.986: PhotoController.downloadImage(photo: <flickry.Photo: 0x6140000afd20>) // image file exists, aborting download...
+2019-05-24 15:48:32.987: PhotoController.downloadImage(photo: <flickry.Photo: 0x6140000afe40>) // image file exists, aborting download...
+2019-05-24 15:48:32.987: PhotoController.downloadImage(photo: <flickry.Photo: 0x6140000aff60>) // image file exists, aborting download...
+2019-05-24 15:48:32.988: PhotoController.downloadImage(photo: <flickry.Photo: 0x6140000b0080>) // image file exists, aborting download...
+2019-05-24 15:48:32.989: PhotoController.downloadImage(photo: <flickry.Photo: 0x6140000b01a0>) // image file exists, aborting download...
+2019-05-24 15:48:32.989: PhotoController.downloadImage(photo: <flickry.Photo: 0x6140000b02c0>) // image file exists, aborting download...
+2019-05-24 15:48:33.020: PhotoController.downloadImage(photo: <flickry.Photo: 0x6140000b03e0>) // image file exists, aborting download...
+2019-05-24 15:48:33.021: PhotoController.downloadImage(photo: <flickry.Photo: 0x6140000b0500>) // image file exists, aborting download...
+2019-05-24 15:48:33.021: PhotoController.downloadImage(photo: <flickry.Photo: 0x6140000b0620>) // image file exists, aborting download...
+2019-05-24 15:48:33.022: PhotoController.downloadImage(photo: <flickry.Photo: 0x6140000b0740>) // image file exists, aborting download...
+2019-05-24 15:48:33.023: PhotoController.downloadImage(photo: <flickry.Photo: 0x6140000b0860>) // image file exists, aborting download...
+2019-05-24 15:48:33.023: PhotoController.downloadImage(photo: <flickry.Photo: 0x6140000b0980>) // image file exists, aborting download...
+2019-05-24 15:48:33.024: PhotoController.downloadImage(photo: <flickry.Photo: 0x6140000b0aa0>) // image file exists, aborting download...
+2019-05-24 15:48:33.025: PhotoController.downloadImage(photo: <flickry.Photo: 0x6140000b0c20>) // image file exists, aborting download...
+2019-05-24 15:48:33.025: PhotoController.downloadImage(photo: <flickry.Photo: 0x6140000b0d40>) // image file exists, aborting download...
+2019-05-24 15:48:33.026: PhotoController.downloadImage(photo: <flickry.Photo: 0x6140000b0e60>) // image file exists, aborting download...
+2019-05-24 15:48:33.027: PhotoController.downloadImage(photo: <flickry.Photo: 0x6140000b0f80>) // image file exists, aborting download...
+2019-05-24 15:48:33.027: PhotoController.downloadImage(photo: <flickry.Photo: 0x6140000b10a0>) // image file exists, aborting download...
+2019-05-24 15:48:33.028: PhotoController.downloadImage(photo: <flickry.Photo: 0x6140000b11c0>) // image file exists, aborting download...
+2019-05-24 15:48:33.029: PhotoController.downloadImage(photo: <flickry.Photo: 0x6140000b12e0>) // image file exists, aborting download...
+2019-05-24 15:48:33.029: PhotoController.downloadImage(photo: <flickry.Photo: 0x6140000b1400>) // image file exists, aborting download...
+2019-05-24 15:48:33.030: PhotoController.downloadImage(photo: <flickry.Photo: 0x6140000b1520>) // image file exists, aborting download...
+2019-05-24 15:48:33.030: PhotoController.downloadImage(photo: <flickry.Photo: 0x6140000b16a0>) // image file exists, aborting download...
+2019-05-24 15:48:33.031: PhotoController.downloadImage(photo: <flickry.Photo: 0x6140000b17c0>) // image file exists, aborting download...
+2019-05-24 15:48:33.032: PhotoController.downloadImage(photo: <flickry.Photo: 0x6140000b18e0>) // image file exists, aborting download...
+2019-05-24 15:48:33.032: PhotoController.downloadImage(photo: <flickry.Photo: 0x6140000b1a00>) // image file exists, aborting download...
+2019-05-24 15:48:33.033: PhotoController.downloadImage(photo: <flickry.Photo: 0x6140000b1b80>) // image file exists, aborting download...
+2019-05-24 15:48:33.033: PhotoController.downloadImage(photo: <flickry.Photo: 0x6140000b1ca0>) // image file exists, aborting download...
+2019-05-24 15:48:33.034: PhotoController.downloadImage(photo: <flickry.Photo: 0x6140000b1dc0>) // image file exists, aborting download...
+2019-05-24 15:48:33.035: PhotoController.downloadImage(photo: <flickry.Photo: 0x6140000b1ee0>) // image file exists, aborting download...
+2019-05-24 15:48:33.035: PhotoController.downloadImage(photo: <flickry.Photo: 0x6140000b2000>) // image file exists, aborting download...
+2019-05-24 15:48:33.036: PhotoController.downloadImage(photo: <flickry.Photo: 0x6140000b2120>) // image file exists, aborting download...
+2019-05-24 15:48:33.036: PhotoController.downloadImage(photo: <flickry.Photo: 0x6140000b2240>) // image file exists, aborting download...
+2019-05-24 15:48:33.037: PhotoController.downloadImage(photo: <flickry.Photo: 0x6140000b2360>) // image file exists, aborting download...
+2019-05-24 15:48:33.038: PhotoController.downloadImage(photo: <flickry.Photo: 0x6140000b2480>) // image file exists, aborting download...
+2019-05-24 15:48:33.038: PhotoController.downloadImage(photo: <flickry.Photo: 0x6140000b25a0>) // image file exists, aborting download...
+2019-05-24 15:48:33.039: PhotoController.downloadImage(photo: <flickry.Photo: 0x6140000b26c0>) // image file exists, aborting download...
+2019-05-24 15:48:33.040: PhotoController.downloadImage(photo: <flickry.Photo: 0x6140000b27e0>) // image file exists, aborting download...
+2019-05-24 15:48:33.040: PhotoController.downloadImage(photo: <flickry.Photo: 0x6140000b2900>) // image file exists, aborting download...
+2019-05-24 15:48:33.041: PhotoController.downloadImage(photo: <flickry.Photo: 0x6140000b2a20>) // image file exists, aborting download...
+2019-05-24 15:48:33.042: PhotoController.downloadImage(photo: <flickry.Photo: 0x6140000b2b40>) // image file exists, aborting download...
+2019-05-24 15:48:33.042: PhotoController.downloadImage(photo: <flickry.Photo: 0x6140000b2c60>) // image file exists, aborting download...
+2019-05-24 15:48:33.043: PhotoController.downloadImage(photo: <flickry.Photo: 0x6140000b2d80>) // image file exists, aborting download...
+2019-05-24 15:48:33.043: PhotoController.downloadImage(photo: <flickry.Photo: 0x6140000b2ea0>) // image file exists, aborting download...
+2019-05-24 15:48:33.047: PhotosView.awakeFromNib()
+2019-05-24 15:48:33.059: MainView.viewDidLoad()
+2019-05-24 15:48:33.102: PhotosView.viewDidLoad()
+2019-05-24 15:48:33.104: PhotosView.updateContent()
+2019-05-24 15:48:33.105: PhotosView.updateLayout(animated: false)
+2019-05-24 15:48:33.118: PhotosView.collectionView(cellForRowAtIndexPath: [0, 0])
+2019-05-24 15:48:33.120: PhotoCell.awakeFromNib()
+2019-05-24 15:48:33.140: PhotosView.collectionView(cellForRowAtIndexPath: [0, 1])
+2019-05-24 15:48:33.141: PhotoCell.awakeFromNib()
+2019-05-24 15:48:33.143: PhotosView.collectionView(cellForRowAtIndexPath: [0, 2])
+2019-05-24 15:48:33.143: PhotoCell.awakeFromNib()
+2019-05-24 15:48:33.145: PhotosView.collectionView(cellForRowAtIndexPath: [0, 3])
+2019-05-24 15:48:33.145: PhotoCell.awakeFromNib()
+2019-05-24 15:48:33.147: PhotosView.collectionView(cellForRowAtIndexPath: [0, 4])
+2019-05-24 15:48:33.148: PhotoCell.awakeFromNib()
+2019-05-24 15:48:33.149: PhotosView.collectionView(cellForRowAtIndexPath: [0, 5])
+2019-05-24 15:48:33.150: PhotoCell.awakeFromNib()
+2019-05-24 15:48:33.152: PhotosView.collectionView(cellForRowAtIndexPath: [0, 6])
+2019-05-24 15:48:33.153: PhotoCell.awakeFromNib()
+2019-05-24 15:48:33.155: PhotosView.collectionView(cellForRowAtIndexPath: [0, 7])
+2019-05-24 15:48:33.155: PhotoCell.awakeFromNib()
+2019-05-24 15:48:33.157: PhotosView.collectionView(cellForRowAtIndexPath: [0, 8])
+2019-05-24 15:48:33.158: PhotoCell.awakeFromNib()
+2019-05-24 15:48:33.160: PhotosView.collectionView(cellForRowAtIndexPath: [0, 9])
+2019-05-24 15:48:33.161: PhotoCell.awakeFromNib()
+2019-05-24 15:48:33.162: PhotosView.collectionView(cellForRowAtIndexPath: [0, 10])
+2019-05-24 15:48:33.163: PhotoCell.awakeFromNib()
+2019-05-24 15:48:33.164: PhotosView.collectionView(cellForRowAtIndexPath: [0, 11])
+2019-05-24 15:48:33.165: PhotoCell.awakeFromNib()
+2019-05-24 15:48:33.167: PhotosView.collectionView(cellForRowAtIndexPath: [0, 12])
+2019-05-24 15:48:33.167: PhotoCell.awakeFromNib()
+2019-05-24 15:48:33.169: PhotosView.collectionView(cellForRowAtIndexPath: [0, 13])
+2019-05-24 15:48:33.170: PhotoCell.awakeFromNib()
+2019-05-24 15:48:33.171: PhotosView.collectionView(cellForRowAtIndexPath: [0, 14])
+2019-05-24 15:48:33.172: PhotoCell.awakeFromNib()
+2019-05-24 15:48:33.173: PhotosView.collectionView(cellForRowAtIndexPath: [0, 15])
+2019-05-24 15:48:33.174: PhotoCell.awakeFromNib()
+2019-05-24 15:48:33.176: PhotosView.collectionView(cellForRowAtIndexPath: [0, 16])
+2019-05-24 15:48:33.176: PhotoCell.awakeFromNib()
+2019-05-24 15:48:33.178: PhotosView.collectionView(cellForRowAtIndexPath: [0, 17])
+2019-05-24 15:48:33.179: PhotoCell.awakeFromNib()
+2019-05-24 15:48:33.181: PhotosView.collectionView(cellForRowAtIndexPath: [0, 18])
+2019-05-24 15:48:33.182: PhotoCell.awakeFromNib()
+2019-05-24 15:48:33.183: PhotosView.collectionView(cellForRowAtIndexPath: [0, 19])
+2019-05-24 15:48:33.184: PhotoCell.awakeFromNib()
+2019-05-24 15:48:33.186: PhotosView.collectionView(cellForRowAtIndexPath: [0, 20])
+2019-05-24 15:48:33.187: PhotoCell.awakeFromNib()
+2019-05-24 15:48:33.188: PhotosView.collectionView(cellForRowAtIndexPath: [0, 21])
+2019-05-24 15:48:33.189: PhotoCell.awakeFromNib()
+2019-05-24 15:48:33.191: PhotosView.collectionView(cellForRowAtIndexPath: [0, 22])
+2019-05-24 15:48:33.191: PhotoCell.awakeFromNib()
+2019-05-24 15:48:33.193: PhotosView.collectionView(cellForRowAtIndexPath: [0, 23])
+2019-05-24 15:48:33.193: PhotoCell.awakeFromNib()
+2019-05-24 15:48:33.195: PhotosView.collectionView(cellForRowAtIndexPath: [0, 24])
+2019-05-24 15:48:33.196: PhotoCell.awakeFromNib()
+2019-05-24 15:48:33.197: PhotosView.collectionView(cellForRowAtIndexPath: [0, 25])
+2019-05-24 15:48:33.198: PhotoCell.awakeFromNib()
+2019-05-24 15:48:33.200: PhotosView.collectionView(cellForRowAtIndexPath: [0, 26])
+2019-05-24 15:48:33.201: PhotoCell.awakeFromNib()
+2019-05-24 15:48:33.202: PhotosView.collectionView(cellForRowAtIndexPath: [0, 27])
+2019-05-24 15:48:33.203: PhotoCell.awakeFromNib()
+2019-05-24 15:48:33.263: AppDelegate.applicationDidBecomeActive()
+
+// Scroll
+
+2019-05-24 15:49:17.261: PhotosView.collectionView(cellForRowAtIndexPath: [0, 28])
+2019-05-24 15:49:17.262: PhotoCell.awakeFromNib()
+2019-05-24 15:49:17.280: PhotosView.collectionView(cellForRowAtIndexPath: [0, 29])
+2019-05-24 15:49:17.281: PhotoCell.awakeFromNib()
+2019-05-24 15:49:17.298: PhotosView.collectionView(cellForRowAtIndexPath: [0, 30])
+2019-05-24 15:49:17.300: PhotoCell.awakeFromNib()
+2019-05-24 15:49:17.302: PhotosView.collectionView(cellForRowAtIndexPath: [0, 31])
+2019-05-24 15:49:17.302: PhotoCell.awakeFromNib()
+2019-05-24 15:49:17.304: PhotosView.collectionView(cellForRowAtIndexPath: [0, 32])
+2019-05-24 15:49:17.305: PhotoCell.awakeFromNib()
+2019-05-24 15:49:17.323: PhotosView.collectionView(cellForRowAtIndexPath: [0, 33])
+2019-05-24 15:49:17.324: PhotoCell.awakeFromNib()
+2019-05-24 15:49:17.342: PhotosView.collectionView(cellForRowAtIndexPath: [0, 34])
+2019-05-24 15:49:17.343: PhotoCell.awakeFromNib()
+2019-05-24 15:49:17.361: PhotosView.collectionView(cellForRowAtIndexPath: [0, 35])
+2019-05-24 15:49:17.362: PhotoCell.awakeFromNib()
+2019-05-24 15:49:17.380: PhotosView.collectionView(cellForRowAtIndexPath: [0, 36])
+2019-05-24 15:49:17.381: PhotoCell.awakeFromNib()
+2019-05-24 15:49:17.399: PhotosView.collectionView(cellForRowAtIndexPath: [0, 37])
+2019-05-24 15:49:17.400: PhotoCell.awakeFromNib()
+2019-05-24 15:49:17.417: PhotosView.collectionView(cellForRowAtIndexPath: [0, 38])
+2019-05-24 15:49:17.418: PhotoCell.awakeFromNib()
+2019-05-24 15:49:17.436: PhotosView.collectionView(cellForRowAtIndexPath: [0, 39])
+2019-05-24 15:49:17.437: PhotoCell.awakeFromNib()
+2019-05-24 15:49:17.454: PhotosView.collectionView(cellForRowAtIndexPath: [0, 40])
+2019-05-24 15:49:17.455: PhotoCell.awakeFromNib()
+2019-05-24 15:49:17.473: PhotosView.collectionView(cellForRowAtIndexPath: [0, 41])
+2019-05-24 15:49:17.474: PhotoCell.awakeFromNib()
+2019-05-24 15:49:17.491: PhotosView.collectionView(cellForRowAtIndexPath: [0, 42])
+2019-05-24 15:49:17.492: PhotoCell.awakeFromNib()
+2019-05-24 15:49:17.510: PhotosView.collectionView(cellForRowAtIndexPath: [0, 43])
+2019-05-24 15:49:17.529: PhotosView.collectionView(cellForRowAtIndexPath: [0, 44])
+2019-05-24 15:49:17.547: PhotosView.collectionView(cellForRowAtIndexPath: [0, 45])
+2019-05-24 15:49:17.567: PhotosView.collectionView(cellForRowAtIndexPath: [0, 46])
+2019-05-24 15:49:17.586: PhotosView.collectionView(cellForRowAtIndexPath: [0, 47])
+2019-05-24 15:49:17.619: PhotosView.collectionView(cellForRowAtIndexPath: [0, 48])
+2019-05-24 15:49:17.636: PhotosView.collectionView(cellForRowAtIndexPath: [0, 49])
+2019-05-24 15:49:17.653: PhotosView.collectionView(cellForRowAtIndexPath: [0, 50])
+2019-05-24 15:49:17.670: PhotosView.collectionView(cellForRowAtIndexPath: [0, 51])
+2019-05-24 15:49:17.672: PhotosView.collectionView(cellForRowAtIndexPath: [0, 52])
+2019-05-24 15:49:17.686: PhotosView.collectionView(cellForRowAtIndexPath: [0, 53])
+2019-05-24 15:49:17.703: PhotosView.collectionView(cellForRowAtIndexPath: [0, 54])
+2019-05-24 15:49:17.719: PhotosView.collectionView(cellForRowAtIndexPath: [0, 55])
+2019-05-24 15:49:17.722: PhotosView.collectionView(cellForRowAtIndexPath: [0, 56])
+2019-05-24 15:49:17.736: PhotosView.collectionView(cellForRowAtIndexPath: [0, 57])
+2019-05-24 15:49:17.753: PhotosView.collectionView(cellForRowAtIndexPath: [0, 58])
+2019-05-24 15:49:17.769: PhotosView.collectionView(cellForRowAtIndexPath: [0, 59])
+2019-05-24 15:49:17.786: PhotosView.collectionView(cellForRowAtIndexPath: [0, 60])
+2019-05-24 15:49:17.803: PhotosView.collectionView(cellForRowAtIndexPath: [0, 61])
+2019-05-24 15:49:17.819: PhotosView.collectionView(cellForRowAtIndexPath: [0, 62])
+2019-05-24 15:49:17.837: PhotosView.collectionView(cellForRowAtIndexPath: [0, 63])
+2019-05-24 15:49:17.869: PhotosView.collectionView(cellForRowAtIndexPath: [0, 64])
+2019-05-24 15:49:17.886: PhotosView.collectionView(cellForRowAtIndexPath: [0, 65])
+2019-05-24 15:49:17.903: PhotosView.collectionView(cellForRowAtIndexPath: [0, 66])
+2019-05-24 15:49:17.920: PhotosView.collectionView(cellForRowAtIndexPath: [0, 67])
+2019-05-24 15:49:17.937: PhotosView.collectionView(cellForRowAtIndexPath: [0, 68])
+2019-05-24 15:49:17.953: PhotosView.collectionView(cellForRowAtIndexPath: [0, 69])
+2019-05-24 15:49:17.969: PhotosView.collectionView(cellForRowAtIndexPath: [0, 70])
+2019-05-24 15:49:17.986: PhotosView.collectionView(cellForRowAtIndexPath: [0, 71])
+2019-05-24 15:49:18.002: PhotosView.collectionView(cellForRowAtIndexPath: [0, 72])
+2019-05-24 15:49:18.019: PhotosView.collectionView(cellForRowAtIndexPath: [0, 73])
+2019-05-24 15:49:18.037: PhotosView.collectionView(cellForRowAtIndexPath: [0, 74])
+2019-05-24 15:49:18.053: PhotosView.collectionView(cellForRowAtIndexPath: [0, 75])
+2019-05-24 15:49:18.054: PhotoCell.awakeFromNib()
+2019-05-24 15:49:18.069: PhotosView.collectionView(cellForRowAtIndexPath: [0, 76])
+2019-05-24 15:49:18.070: PhotoCell.awakeFromNib()
+2019-05-24 15:49:18.086: PhotosView.collectionView(cellForRowAtIndexPath: [0, 77])
+2019-05-24 15:49:18.103: PhotosView.collectionView(cellForRowAtIndexPath: [0, 78])
+2019-05-24 15:49:18.120: PhotosView.collectionView(cellForRowAtIndexPath: [0, 79])
+2019-05-24 15:49:18.153: PhotosView.collectionView(cellForRowAtIndexPath: [0, 80])
+2019-05-24 15:49:18.169: PhotosView.collectionView(cellForRowAtIndexPath: [0, 81])
+2019-05-24 15:49:18.170: PhotoCell.awakeFromNib()
+2019-05-24 15:49:18.187: PhotosView.collectionView(cellForRowAtIndexPath: [0, 82])
+2019-05-24 15:49:18.188: PhotoCell.awakeFromNib()
+2019-05-24 15:49:18.203: PhotosView.collectionView(cellForRowAtIndexPath: [0, 83])
+2019-05-24 15:49:18.203: PhotoCell.awakeFromNib()
+2019-05-24 15:49:18.219: PhotosView.collectionView(cellForRowAtIndexPath: [0, 84])
+2019-05-24 15:49:18.220: PhotoCell.awakeFromNib()
+2019-05-24 15:49:18.236: PhotosView.collectionView(cellForRowAtIndexPath: [0, 85])
+2019-05-24 15:49:18.253: PhotosView.collectionView(cellForRowAtIndexPath: [0, 86])
+2019-05-24 15:49:18.269: PhotosView.collectionView(cellForRowAtIndexPath: [0, 87])
+2019-05-24 15:49:18.287: PhotosView.collectionView(cellForRowAtIndexPath: [0, 88])
+2019-05-24 15:49:18.303: PhotosView.collectionView(cellForRowAtIndexPath: [0, 89])
+2019-05-24 15:49:18.304: PhotoCell.awakeFromNib()
+2019-05-24 15:49:18.320: PhotosView.collectionView(cellForRowAtIndexPath: [0, 90])
+2019-05-24 15:49:18.321: PhotoCell.awakeFromNib()
+2019-05-24 15:49:18.336: PhotosView.collectionView(cellForRowAtIndexPath: [0, 91])
+2019-05-24 15:49:18.337: PhotoCell.awakeFromNib()
+2019-05-24 15:49:18.370: PhotosView.collectionView(cellForRowAtIndexPath: [0, 92])
+2019-05-24 15:49:18.371: PhotoCell.awakeFromNib()
+2019-05-24 15:49:18.387: PhotosView.collectionView(cellForRowAtIndexPath: [0, 93])
+2019-05-24 15:49:18.388: PhotoCell.awakeFromNib()
+2019-05-24 15:49:18.403: PhotosView.collectionView(cellForRowAtIndexPath: [0, 94])
+2019-05-24 15:49:18.404: PhotoCell.awakeFromNib()
+2019-05-24 15:49:18.420: PhotosView.collectionView(cellForRowAtIndexPath: [0, 95])
+2019-05-24 15:49:18.421: PhotoCell.awakeFromNib()
+2019-05-24 15:49:18.503: PhotosView.collectionView(cellForRowAtIndexPath: [0, 96])
+2019-05-24 15:49:18.519: PhotosView.collectionView(cellForRowAtIndexPath: [0, 97])
+2019-05-24 15:49:18.537: PhotosView.collectionView(cellForRowAtIndexPath: [0, 98])
+2019-05-24 15:49:18.554: PhotosView.collectionView(cellForRowAtIndexPath: [0, 99])
+2019-05-24 15:49:18.920: PhotosView.collectionView(cellForRowAtIndexPath: [0, 100])
+2019-05-24 15:49:18.936: PhotosView.collectionView(cellForRowAtIndexPath: [0, 101])
+2019-05-24 15:49:18.954: PhotosView.collectionView(cellForRowAtIndexPath: [0, 102])
+2019-05-24 15:49:18.969: PhotosView.collectionView(cellForRowAtIndexPath: [0, 103])
+

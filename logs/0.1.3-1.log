@@ -1,0 +1,47 @@
+// Startup
+
+2019-05-23 20:34:45.652: MainView.awakeFromNib()
+2019-05-23 20:34:45.657: AppDelegate.application(didFinishLaunchingWithOptions: nil)
+2019-05-23 20:34:45.661: Index.init()
+2019-05-23 20:34:45.662: Cursor.init()
+2019-05-23 20:34:45.662: PhotoModel.init()
+2019-05-23 20:34:45.662: Defaults.object(forKey: photo_data) // no data for key
+2019-05-23 20:34:45.666: PhotosView.awakeFromNib()
+2019-05-23 20:34:45.678: MainView.viewDidLoad()
+2019-05-23 20:34:45.702: PhotosView.viewDidLoad()
+2019-05-23 20:34:45.704: PhotosView.updateContent()
+2019-05-23 20:34:45.705: PhotosView.updateLayout(animated: false)
+2019-05-23 20:34:45.730: AppDelegate.applicationDidBecomeActive()
+
+// Enter Search Field
+
+2019-05-23 20:35:08.897: PhotosView.searchBarTextDidBeginEditing(searchBar: <UISearchBar: 0x7fa877d0f070; frame = (0 112; 320 56); text = ''; opaque = NO; autoresize = RM+BM; gestureRecognizers = <NSArray: 0x62400005bab0>; layer = <CALayer: 0x62400003e400>>)
+2019-05-23 20:35:08.975: MainView.notificationHandler()
+
+// Type "Far"
+
+2019-05-23 20:35:30.426: PhotosView.searchBar(searchBar: <UISearchBar: 0x7fa877d0f070; frame = (0 112; 320 56); text = 'F'; opaque = NO; autoresize = RM+BM; gestureRecognizers = <NSArray: 0x62400005bab0>; layer = <CALayer: 0x62400003e400>>, textDidChangeSearchText: F)
+2019-05-23 20:35:31.104: PhotosView.searchBar(searchBar: <UISearchBar: 0x7fa877d0f070; frame = (0 112; 320 56); text = 'Fa'; opaque = NO; autoresize = RM+BM; gestureRecognizers = <NSArray: 0x62400005bab0>; layer = <CALayer: 0x62400003e400>>, textDidChangeSearchText: Fa)
+2019-05-23 20:35:32.969: PhotosView.searchBar(searchBar: <UISearchBar: 0x7fa877d0f070; frame = (0 112; 320 56); text = 'Far'; opaque = NO; autoresize = RM+BM; gestureRecognizers = <NSArray: 0x62400005bab0>; layer = <CALayer: 0x62400003e400>>, textDidChangeSearchText: Far)
+2019-05-23 20:35:32.970: PhotosView.fetchData()
+2019-05-23 20:35:32.970: PhotoModel.sendRequest(text: Far)
+2019-05-23 20:35:32.977: Connection.init(url: https://api.flickr.com/services/rest/?method=flickr.photos.search&api_key=675894853ae8ec6c242fa4c077bcf4a0&text=Far&extras=url_s&format=json&nojsoncallback=1, method: get, auth: none)
+2019-05-23 20:35:32.977: ConnectionManager.init()
+2019-05-23 20:35:32.978: ConnectionManager.sendRequest()
+2019-05-23 20:35:33.355: ConnectionManager.completionHandler()
+2019-05-23 20:35:33.356: /Users/Shared/Projects/Flickry/Xcode/flickry/flickry/Navigation/Photo/PhotoModel.swift.connectionManagerDidReceiveObject(object:)(object: {
+  code = 105;
+  message = "Service currently unavailable (Site Disabled)";
+  stat = fail;
+})
+2019-05-23 20:35:33.357: PhotoController.model(error: Service currently unavailable (Site Disabled))
+2019-05-23 20:35:33.367: MainView.notificationHandler()
+2019-05-23 20:35:33.382: PhotoController.model(error: No new objects were fetched)
+2019-05-23 20:35:33.398: MainView.notificationHandler()
+
+// Press OK in Alert
+
+2019-05-23 20:35:49.969: MainView.notificationHandler()
+2019-05-23 20:35:49.974: PhotosView.searchBarTextDidBeginEditing(searchBar: <UISearchBar: 0x7fa877d0f070; frame = (0 112; 320 56); text = 'Far'; opaque = NO; autoresize = RM+BM; gestureRecognizers = <NSArray: 0x62400005bab0>; layer = <CALayer: 0x62400003e400>>)
+2019-05-23 20:35:49.996: MainView.notificationHandler()
+2019-05-23 20:35:50.420: PhotoController.cancelhandler(action: <UIAlertAction: 0x60400010e850 Title = "OK" Descriptive = "(null)" Image = 0x0>)

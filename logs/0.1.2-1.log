@@ -1,0 +1,31 @@
+2019-05-23 16:08:58.424: MainView.awakeFromNib()
+2019-05-23 16:08:58.429: AppDelegate.application(didFinishLaunchingWithOptions: nil)
+2019-05-23 16:08:58.437: PhotosView.awakeFromNib()
+2019-05-23 16:08:58.452: /Users/Shared/Projects/Flickry/Xcode/flickry/flickry/Main/MainView.swift.viewDidLoad()()
+2019-05-23 16:08:58.480: PhotosView.viewDidLoad()
+2019-05-23 16:08:58.480: PhotosView.updateContent()
+2019-05-23 16:08:58.480: PhotosView.updateLayout(animated: false)
+2019-05-23 16:08:58.507: AppDelegate.applicationDidBecomeActive()
+
+// Enter Search Field
+
+2019-05-23 16:10:17.504: PhotosView.searchBarTextDidBeginEditing(searchBar: <UISearchBar: 0x7f8e37e136f0; frame = (0 113; 320 56); text = ''; opaque = NO; autoresize = RM+BM; gestureRecognizers = <NSArray: 0x62c000454790>; layer = <CALayer: 0x62c000037ac0>>)
+2019-05-23 16:10:17.589: MainView.notificationHandler()
+2019-05-23 16:10:41.666: MainView.notificationHandler()
+2019-05-23 16:10:41.710: MainView.notificationHandler()
+
+// Type "Farm"
+
+2019-05-23 16:12:01.334: PhotosView.searchBar(searchBar: <UISearchBar: 0x7f8e37e136f0; frame = (0 113; 320 56); text = 'F'; opaque = NO; autoresize = RM+BM; gestureRecognizers = <NSArray: 0x62c000454790>; layer = <CALayer: 0x62c000037ac0>>, textDidChangeSearchText: F)
+2019-05-23 16:12:29.920: PhotosView.searchBar(searchBar: <UISearchBar: 0x7f8e37e136f0; frame = (0 113; 320 56); text = 'Fa'; opaque = NO; autoresize = RM+BM; gestureRecognizers = <NSArray: 0x62c000454790>; layer = <CALayer: 0x62c000037ac0>>, textDidChangeSearchText: Fa)
+2019-05-23 16:12:30.460: PhotosView.searchBar(searchBar: <UISearchBar: 0x7f8e37e136f0; frame = (0 113; 320 56); text = 'Far'; opaque = NO; autoresize = RM+BM; gestureRecognizers = <NSArray: 0x62c000454790>; layer = <CALayer: 0x62c000037ac0>>, textDidChangeSearchText: Far)
+2019-05-23 16:12:31.292: PhotosView.searchBar(searchBar: <UISearchBar: 0x7f8e37e136f0; frame = (0 113; 320 56); text = 'Farm'; opaque = NO; autoresize = RM+BM; gestureRecognizers = <NSArray: 0x62c000454790>; layer = <CALayer: 0x62c000037ac0>>, textDidChangeSearchText: Farm)
+
+// Cancel
+
+2019-05-23 16:13:08.906: PhotosView.searchBarCancelButtonClicked(searchBar: <UISearchBar: 0x7f8e37e136f0; frame = (0 113; 320 56); text = 'Farm'; opaque = NO; autoresize = RM+BM; gestureRecognizers = <NSArray: 0x62c000454790>; layer = <CALayer: 0x62c000037ac0>>)
+
+// Enter
+
+2019-05-23 16:13:35.556: PhotosView.searchBarSearchButtonClicked(searchBar: <UISearchBar: 0x7f8e37e136f0; frame = (0 113; 320 56); text = 'Farm'; opaque = NO; autoresize = RM+BM; gestureRecognizers = <NSArray: 0x62c000454790>; layer = <CALayer: 0x62c000037ac0>>)
+2019-05-23 16:13:35.564: MainView.notificationHandler()
